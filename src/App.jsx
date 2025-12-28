@@ -23,18 +23,18 @@ function App() {
       <Navigation />
       <main className="app-main">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/character-creation" element={<CharacterCreation />} />
-          <Route path="/backgrounds" element={<Backgrounds />} />
-          <Route path="/factions" element={<Factions />} />
-          <Route path="/aptitudes" element={<Aptitudes />} />
-          <Route path="/morphs" element={<Morphs />} />
-          <Route path="/traits" element={<Traits />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/actions" element={<Actions />} />
-          <Route path="/psi" element={<Psi />} />
-          <Route path="/gear" element={<Gear />} />
-          <Route path="/mesh" element={<Mesh />} />
+          <Route index element={<Home />} />
+          <Route path="character-creation" element={<CharacterCreation />} />
+          <Route path="backgrounds" element={<Backgrounds />} />
+          <Route path="factions" element={<Factions />} />
+          <Route path="aptitudes" element={<Aptitudes />} />
+          <Route path="morphs" element={<Morphs />} />
+          <Route path="traits" element={<Traits />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="actions" element={<Actions />} />
+          <Route path="psi" element={<Psi />} />
+          <Route path="gear" element={<Gear />} />
+          <Route path="mesh" element={<Mesh />} />
         </Routes>
       </main>
     </Router>

@@ -16,11 +16,11 @@ export default function Actions() {
         <section>
           <h2>Related Topics</h2>
           <ul>
-            <li><Link to="/actions/turns">Turns and Rounds</Link></li>
-            <li><Link to="/actions/quick-actions">Quick Actions</Link></li>
-            <li><Link to="/actions/complex-actions">Complex Actions</Link></li>
-            <li><Link to="/actions/initiative">Initiative</Link></li>
-            <li><Link to="/actions/damage">Damage & Healing</Link></li>
+            <li><Link to="actions/turns">Turns and Rounds</Link></li>
+            <li><Link to="actions/quick-actions">Quick Actions</Link></li>
+            <li><Link to="actions/complex-actions">Complex Actions</Link></li>
+            <li><Link to="actions/initiative">Initiative</Link></li>
+            <li><Link to="actions/damage">Damage & Healing</Link></li>
           </ul>
         </section>
 
