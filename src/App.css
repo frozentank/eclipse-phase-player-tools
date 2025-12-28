@@ -1,0 +1,416 @@
+/* Root and Basic Styles */
+:root {
+  --primary-bg: #0f0f23;
+  --secondary-bg: #1a1a2e;
+  --tertiary-bg: #16213e;
+  --accent-color: #e94560;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+  --border-color: #0f3460;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--primary-bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* App Main Layout */
+.app-main {
+  min-height: calc(100vh - 60px);
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Page Content */
+.page-content {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--accent-color);
+  border-bottom: 3px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.page-content h2 {
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.page-content h3 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.page-content section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: var(--secondary-bg);
+  border-left: 4px solid var(--accent-color);
+  border-radius: 0.25rem;
+}
+
+.page-content p {
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.page-content ul,
+.page-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-content li {
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+/* Tools Grid */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tool-section {
+  background-color: var(--secondary-bg);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--border-color);
+  transition: border-color 0.3s ease;
+}
+
+.tool-section:hover {
+  border-color: var(--accent-color);
+}
+
+.tool-section h2 {
+  margin-top: 0;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.tool-section ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.tool-section li {
+  margin-bottom: 0.75rem;
+}
+
+.tool-section a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  display: block;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.tool-section a:hover {
+  color: var(--accent-color);
+  border-left-color: var(--accent-color);
+  padding-left: 1.25rem;
+}
+
+/* Searchable Container */
+.searchable-container {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.detail-panel {
+  background-color: var(--secondary-bg);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.detail-panel h2 {
+  margin-top: 0;
+  color: var(--accent-color);
+  word-break: break-word;
+}
+
+.detail-panel strong {
+  color: var(--accent-color);
+}
+
+.detail-panel p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .detail-panel {
+    padding: 1.5rem;
+  }
+
+  .detail-panel h2 {
+    font-size: 1.5rem;
+  }
+
+  .detail-panel p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Aptitudes Grid */
+.aptitudes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.aptitude-card {
+  background-color: var(--secondary-bg);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.aptitude-card:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(233, 69, 96, 0.2);
+}
+
+.aptitude-card h3 {
+  margin-top: 0;
+  color: var(--accent-color);
+}
+
+.aptitude-card p {
+  margin-bottom: 1rem;
+}
+
+.aptitude-applications {
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+}
+
+.aptitude-applications strong {
+  color: var(--accent-color);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.aptitude-applications ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.aptitude-applications li {
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.aptitude-applications li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+}
+
+/* Sections Navigation */
+.sections-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sections-nav section {
+  background-color: var(--secondary-bg);
+  padding: 1.5rem;
+  border-left: 4px solid var(--accent-color);
+}
+
+.sections-nav h2 {
+  margin-top: 0;
+}
+
+.sections-nav ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.sections-nav a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.25rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+}
+
+.sections-nav a:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  background-color: rgba(233, 69, 96, 0.1);
+}
+
+/* Placeholder Text */
+.placeholder-text {
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid var(--border-color);
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-main {
+    padding: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .page-content {
+    padding: 0;
+  }
+
+  .page-content h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .page-content h2 {
+    font-size: 1.4rem;
+  }
+
+  .page-content section {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .tools-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .tool-section {
+    padding: 1.5rem;
+  }
+
+  .tool-section a {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .tool-section a:hover {
+    padding-left: 1rem;
+  }
+
+  .aptitudes-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .aptitude-card {
+    padding: 1rem;
+  }
+
+  .aptitude-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .sections-nav {
+    gap: 1rem;
+  }
+
+  .sections-nav section {
+    padding: 1rem;
+  }
+
+  .sections-nav a {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+  }
+
+  .placeholder-text {
+    font-size: 0.9rem;
+    padding: 0.75rem;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .page-content ul,
+  .page-content ol {
+    margin-left: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .page-content li {
+    margin-bottom: 0.35rem;
+  }
+
+  .page-content p {
+    font-size: 0.95rem;
+  }
+}
