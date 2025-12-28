@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom'
 import Navigation from './components/Navigation'
 
 // Import pages
@@ -19,7 +19,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename='eclipse-phase-player-tools'>
       <Navigation />
       <main className="app-main">
         <Routes>
@@ -37,7 +37,7 @@ function App() {
           <Route path="mesh" element={<Mesh />} />
         </Routes>
       </main>
-    </Router>
+    </HashRouter>
   )
 }
 
