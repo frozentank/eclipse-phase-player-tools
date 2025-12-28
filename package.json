@@ -2,6 +2,7 @@
   "name": "eclipse-phase-player-tools",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://frozentank.github.io/eclipse-phase-player-tools",
   "type": "module",
   "scripts": {
     "dev": "vite",
