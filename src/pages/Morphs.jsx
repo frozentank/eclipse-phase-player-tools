@@ -19,6 +19,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'flat.png',
   },
   {
     id: 2,
@@ -37,6 +38,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'splicer.png',
   },
   {
     id: 3,
@@ -55,6 +57,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'exalt.png',
   },
   {
     id: 4,
@@ -73,6 +76,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'mentons',
   },
   {
     id: 5,
@@ -97,13 +101,14 @@ const MORPHS_DATA = [
         details: 'Often used by athletes and outdoor workers, these are standard olympian biomorphs augmented with temperature tolerance (improved cold). CP and Credit Costs remain the same.'
       },
     ],
+    image: 'olympian.png',
   },
   {
     id: 6,
-    name: 'Slyphs',
+    name: 'Sylphs',
     type: 'Biomorph',
-    description: 'Slyph morphs are tailor-made for media icons',
-    details: 'Slyph morphs are tailor-made for media icons, elite socialites, XP stars, models, and narcissists. Slyph gene sequences are specifically designed for distinctive good looks. Ethereal and elfin features are common, with slim and lithe bodies. Their metabolism has also been sanitized to eliminate unpleasant bodily odors and their pheromones adjusted for universal appeal.',
+    description: 'Sylph morphs are tailor-made for media icons',
+    details: 'Sylph morphs are tailor-made for media icons, elite socialites, XP stars, models, and narcissists. Sylph gene sequences are specifically designed for distinctive good looks. Ethereal and elfin features are common, with slim and lithe bodies. Their metabolism has also been sanitized to eliminate unpleasant bodily odors and their pheromones adjusted for universal appeal.',
     implants: 'Basic Biomods, Basic Mesh Inserts, Clean Metabolism, Cortical Stack, Enhanced Pheromones',
     aptitude_max: '30',
     durability: '35',
@@ -115,6 +120,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'sylph.png',
   },
   {
     id: 7,
@@ -133,6 +139,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'bouncer.png',
   },
   {
     id: 8,
@@ -151,6 +158,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1 + 1 (neurachem)',
     variants:[],
+    image: 'fury.png',
   },
   {
     id: 9,
@@ -169,6 +177,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'futura.png',
   },
   {
     id: 10,
@@ -187,6 +196,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'ghost.png',
   },
   {
     id: 11,
@@ -205,6 +215,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'hibernoid.png',
   },
   {
     id: 12,
@@ -223,6 +234,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'neotenic.png',
   },
   {
     id: 13,
@@ -241,6 +253,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'remade.png',
   },
   {
     id: 14,
@@ -259,6 +272,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'ruster.png',
   },
   {
     id: 15,
@@ -277,6 +291,7 @@ const MORPHS_DATA = [
     mobility: 'Winged 4/20',
     speed: '1',
     variants:[],
+    image: 'neo-avian.png',
   },
   {
     id: 16,
@@ -295,6 +310,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'neo-hominid.png',
   },
   {
     id: 17,
@@ -313,6 +329,7 @@ const MORPHS_DATA = [
     mobility: 'Tenticles 4/20',
     speed: '1',
     variants:[],
+    image: 'octomorph.png',
   },
   {
     id: 18,
@@ -331,6 +348,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/20',
     speed: '1',
     variants:[],
+    image: 'pleasure_pod.png',
   },
   {
     id: 19,
@@ -349,6 +367,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/20',
     speed: '1',
     variants:[],
+    image: 'worker_pod.png',
   },
   {
     id: 20,
@@ -367,6 +386,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/20',
     speed: '1',
     variants:[],
+    image: 'novacrab.png',
   },
   {
     id: 21,
@@ -385,6 +405,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/16',
     speed: '1',
     variants:[],
+    image: 'case.png',
   },
   {
     id: 22,
@@ -403,6 +424,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/20, Submarine 4/36)',
     speed:'1',
     variants:[],
+    image: 'cetus.png',
   },
   {
     id: 23,
@@ -421,6 +443,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/20',
     speed: '1',
     variants:[],
+    image: 'synth.png',
   },
   {
     id: 24,
@@ -439,6 +462,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/24, Thrust Vector 8/40, Wheeled 8/40',
     speed: '1',
     variants:[],
+    image: 'arachnoid.png',
   },
   {
     id: 25,
@@ -457,6 +481,7 @@ const MORPHS_DATA = [
     mobility: 'Winged 8/32',
     speed: '1',
     variants:[],
+    image: 'dragonfly.png',
   },
   {
     id: 26,
@@ -475,6 +500,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/16, Hover 8/40',
     speed: '1',
     variants:[],
+    image: 'flexbot.png',
   },
   {
     id: 27,
@@ -493,6 +519,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/20, Hopper 4/20, Ionic 12/40, Vectored Thrust 4/20',
     speed: '2 (Reflex Booster)',
     variants:[],
+    image: 'reaper.png',
   },
   {
     id: 28,
@@ -511,6 +538,7 @@ const MORPHS_DATA = [
     mobility: 'Snake 4/16, Rolling 8/32',
     speed: '1',
     variants:[],
+    image: 'slitheroid.png',
   },
   {
     id: 29,
@@ -529,6 +557,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 2/8, Hopper 4/20, Rotor 4/32',
     speed: '1',
     variants:[],
+    image: 'swarmanoid.png',
   },
   {
     id: 30,
@@ -546,7 +575,83 @@ const MORPHS_DATA = [
     credit_cost: '0',
     mobility: 'None',
     speed: '3',
-    variants:[],
+    variants:[
+      {
+        id: 1,
+        name: 'Agent',
+        details: 'While some infomorphs who work in network security and penetration testing use this eidolon, it is most popular with hackers and criminals. Many users also purchase the digital veil plug-in.',
+        implants: 'Eidetic Memory, Hacking Alert, Mental Speed, Mnemonic Augmentation',
+        modification: '+5 COG, +5 to one other aptitude of the player’s choice',
+        cp_cost: '35',
+        credit_cost: 'Expensive (minimum 35,000)',
+      },
+      {
+        id: 2,
+        name: 'Digimorph',
+        details: 'This budget eidolon is one of the cheapest available. While it has only modest bonuses, it is highly customizable and widely used.',
+        implants: 'Mnemonic Augmentation',
+        modification: '+5 to one aptitude of the player’s choice',
+        cp_cost: '25',
+        credit_cost: 'Expensive',
+      },
+      {
+        id: 3,
+        name: 'Elite',
+        details: 'Designed for performers, celebrities, and individuals who work with such people, this eidolon allows users to be more charismatic and persuasive, while also providing with them the ability to think on their feet by speeding up their thoughts in order to give themselves more time to consider their responses.',
+        implants: 'Mental Speed, Mnemonic Augmentation',
+        modification: '+5 INT, +5 SAV',
+        cp_cost: '35',
+        credit_cost: 'Expensive (minimum 35,000)',
+      },
+      {
+        id: 4,
+        name: 'Hot Shot',
+        details: 'When you really want to pilot a high-speed spacecraft, you don’t want to have to worry how your squishy biomorph is going to hold up under high-g maneuvers. This eidolon is quite popular among fightercraft pilots as well as among infomorphs who specialize in controlling and directing robots.',
+        implants: 'Increased Speed, Mnemonic Augmentation',
+        speed: '+1 (Increased Speed)',
+        modification: '+5 REF, +5 to one other aptitude of the player’s choice',
+        cp_cost: '35',
+        credit_cost: 'Expensive (minimum 35,000)',
+      },
+      {
+        id: 5,
+        name: 'Sage',
+        details: 'This cutting-edge eidolon is too new to have seen widespread adoption by scientists and academics, but its popularity is spreading among intellectuals, researchers, and others who can afford it.',
+        implants: 'Eidetic Memory, Hyper Linguist, Math Boost, Mnemonic Augmentation',
+        modification: '+10 COG, +5 to one other aptitude of the player’s choice',
+        cp_cost: '40',
+        credit_cost: 'Expensive (minimum 40,000)',
+      },
+      {
+        id: 6,
+        name: 'Scholar',
+        details: 'Most voluntary infomorphs value intelligence above physical prowess and so this is one of the most popular eidolons. It is a simple and relatively powerful eidolon which has no frills and is affordable by most well-off infomorphs.',
+        implants: 'Eidetic Memory, Mnemonic Augmentation',
+        modification: '+5 COG, +5 INT',
+        cp_cost: '35',
+        credit_cost: 'Expensive (minimum 35,000)',
+      },
+      {
+        id: 7,
+        name: 'Slave',
+        details: 'No one other than a handful of bizarre eccentrics voluntarily uses this eidolon. It is specifically designed as a means to control infomorphs who are being used as slaves. One common use of this eidolon is sending an infomorph on a mission where the sender wishes to insure the infomorphs complete and total obedience.',
+        implants: 'Copylock, Mnemonic Augmentation',
+        modification: 'Modified Behavior (Level 2: Blocked disobedience to a particular person/group), −10 WIL',
+        cp_cost: '5',
+        credit_cost: 'Moderate',
+      },
+      {
+        id: 8,
+        name: 'Wirehead',
+        details: 'Regardless of whether an infomorph controls fightercraft, tiny surveillance drones, or attack robots, this high-end eidolon is one that almost all people in those professions wish they had access to.',
+        implants: 'Increased Speed, Mental Speed, Mnemonic Augmentation, Panopticon',
+        speed: '+1 (Increased Speed)',
+        modification: '+10 REF, +5 to one other aptitude of the player’s choice',
+        cp_cost: '60',
+        credit_cost: 'Expensive (minimum 60,000)',
+      },
+    ],
+    image: 'infomorph.png',
   },
   {
     id: 31,
@@ -565,6 +670,7 @@ const MORPHS_DATA = [
     mobility: 'Ionic 12/40, Thrust Vector 8/40',
     speed: '1',
     variants:[],
+    image: 'courier.png',
   },
   {
     id: 32,
@@ -583,6 +689,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/20, Thrust Vector 4/12',
     speed: '1',
     variants:[],
+    image: 'fenrir.png',
   },
   {
     id: 33,
@@ -601,6 +708,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'hazer.png',
   },
   {
     id: 34,
@@ -619,6 +727,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'hulder.png',
   },
   {
     id: 35,
@@ -637,6 +746,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'hyperbright.png',
   },
   {
     id: 36,
@@ -655,6 +765,7 @@ const MORPHS_DATA = [
     mobility: 'Winged 4/20',
     speed: '1',
     variants:[],
+    image: 'ring_flyer.png',
   },
   {
     id: 37,
@@ -673,6 +784,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/20',
     speed: '1',
     variants:[],
+    image: 'savant.png',
   },
   {
     id: 38,
@@ -691,6 +803,7 @@ const MORPHS_DATA = [
     mobility: 'Flippers 4/20',
     speed: '1',
     variants:[],
+    image: 'selkie.png',
   },
   {
     id: 39,
@@ -720,6 +833,7 @@ const MORPHS_DATA = [
         details: 'equipped with hydrostatic pressure adaption for Europa'
       },
     ],
+    image: 'aquanaut.png',
   },
   {
     id: 40,
@@ -738,6 +852,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'crasher.png',
   },
   {
     id: 41,
@@ -756,6 +871,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'digger.png',
   },
   {
     id: 42,
@@ -774,6 +890,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'dvergr.png',
   },
   {
     id: 43,
@@ -792,6 +909,7 @@ const MORPHS_DATA = [
     mobility: 'Ionic 12/40, Thrust Vector 8/40, Walker 2/8, Winged 8/32',
     speed: '1',
     variants:[],
+    image: 'kite.png',
   },
   {
     id: 44,
@@ -810,6 +928,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20, Winged 4/20',
     speed: '1',
     variants:[],
+    image: 'ripwing.png',
   },
   {
     id: 45,
@@ -828,6 +947,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'scurrier.png',
   },
   {
     id: 46,
@@ -846,6 +966,7 @@ const MORPHS_DATA = [
     mobility: 'Walker (2/8)',
     speed: '1',
     variants:[],
+    image: 'spare.png',
   },
   {
     id: 47,
@@ -864,6 +985,7 @@ const MORPHS_DATA = [
     mobility: 'Tenticles 4/20',
     speed: '1',
     variants:[],
+    image: 'whiplash.png',
   },
   {
     id: 48,
@@ -882,6 +1004,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/20, Wheeled 4/32',
     speed: '1',
     variants:[],
+    image: 'xu_fu.png',
   },
   {
     id: 49,
@@ -906,6 +1029,7 @@ const MORPHS_DATA = [
         details: 'Lunar fliers augmented with temperature tolerance (improved cold). CP and Credit Costs remain the same.'
       },
     ],
+    image: 'lunar_flyer.png',
   },
   {
     id: 50,
@@ -924,10 +1048,11 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'martian_alpiner.png',
   },
   {
     id: 51,
-    name: 'Neanderthal',
+    name: 'Neo-Neanderthal',
     type: 'Biomorph',
     description: 'This morph is based on fossilized Neanderthal DNA',
     details: 'This morph is based on fossilized Neanderthal DNA, uplifted and enhanced to transhuman equivalence. Neanderthal morphs look like muscular humans with a heavy bone structure, distinctively long skulls, heavy brow ridges, and weak chins. Pale complexions and red hair are common features.',
@@ -942,6 +1067,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'neo-neanderthal.png',
   },
   {
     id: 52,
@@ -960,6 +1086,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 2/4',
     speed: '1',
     variants:[],
+    image: 'q-morph.png',
   },
   {
     id: 53,
@@ -978,6 +1105,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
+    image: 'salamander.png',
   },
   {
     id: 54,
@@ -996,6 +1124,7 @@ const MORPHS_DATA = [
     mobility: 'Walker (4/20)',
     speed: '1',
     variants:[],
+    image: 'steel_morph.png',
   },
   {
     id: 55,
@@ -1014,6 +1143,7 @@ const MORPHS_DATA = [
     mobility: 'Walker (4/20)',
     speed: '1',
     variants:[],
+    image: 'steel_morph.png',
   },
   {
     id: 56,
@@ -1031,6 +1161,7 @@ const MORPHS_DATA = [
     credit_cost: 'Expensive (minimum 40,000+)',
     mobility: 'Walker (4/20)',
     speed: '1',
+    image: 'steel_morph.png',
   },
   {
     id: 57,
@@ -1048,6 +1179,7 @@ const MORPHS_DATA = [
     credit_cost: 'Expensive (minimum 40,000+)',
     mobility: 'Thrust Vector 12/60',
     speed: '2 (Reflex Booster)',
+    image: 'sundiver.png',
   },
   {
     id: 58,
@@ -1065,6 +1197,7 @@ const MORPHS_DATA = [
     credit_cost: 'Expensive (minimum 30,000+)',
     mobility: 'Thrust Vector 8/40',
     speed: '1',
+    image: 'surya.png',
   },
   {
     id: 59,
@@ -1082,6 +1215,7 @@ const MORPHS_DATA = [
     credit_cost: 'Expensive',
     mobility: 'Winged 4/20',
     speed: '1',
+    image: 'venusian_glider.png',
   },
   {
     id: 60,
@@ -1100,6 +1234,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants: [],
+    image: 'chickcharnie.png',
   },
   {
     id: 61,
@@ -1118,6 +1253,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/20',
     speed: '1',
     variants: [],
+    image: 'gargoyle.png',
   },
   {
     id: 62,
@@ -1136,6 +1272,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants: [],
+    image: 'hypergibbon.png',
   },
   {
     id: 63,
@@ -1165,6 +1302,7 @@ const MORPHS_DATA = [
         details: 'Neo-cetaceans and neo-octopi are natural fits for the Europan environment. Any of these morphs (including the takko) can be modified for survival on Europa, adding hydrostatic pressure adaption and temperature tolerance (improved cold). Increase CP Cost by 5; Credit Cost remains the same.'
       },
     ],
+    image: 'neo-beluga.png',
   },
   {
     id: 64,
@@ -1194,6 +1332,7 @@ const MORPHS_DATA = [
         details: 'Neo-cetaceans and neo-octopi are natural fits for the Europan environment. Any of these morphs (including the takko) can be modified for survival on Europa, adding hydrostatic pressure adaption and temperature tolerance (improved cold). Increase CP Cost by 5; Credit Cost remains the same.'
       },
     ],
+    image: 'neo-dolphin.png',
   },
   {
     id: 65,
@@ -1212,6 +1351,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants: [],
+    image: 'neo-gorilla.png',
   },
   {
     id: 66,
@@ -1241,6 +1381,7 @@ const MORPHS_DATA = [
         details: 'The greatest success to date is the Europan orca, a cetacean uplift that upgrades the neo-orca with carapace armor, eelware, enhanced vision, hydrostatic pressure adaption and temperature tolerance (improved cold). Increase CP Cost by 10; Credit Cost remains the same. These are especially useful as undersea guards or mercenaries.'
       },
     ],
+    image: 'neo-orca.png',
   },
   {
     id: 67,
@@ -1259,6 +1400,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants: [],
+    image: 'neo-pig.png',
   },
   {
     id: 68,
@@ -1288,6 +1430,7 @@ const MORPHS_DATA = [
         details: 'Neo-cetaceans and neo-octopi are natural fits for the Europan environment. Any of these morphs (including the takko) can be modified for survival on Europa, adding hydrostatic pressure adaption and temperature tolerance (improved cold). Increase CP Cost by 5; Credit Cost remains the same.'
       },
     ],
+    image: 'neo-porpoise.png',
   },
   {
     id: 69,
@@ -1317,6 +1460,7 @@ const MORPHS_DATA = [
         details: 'Neo-cetaceans and neo-octopi are natural fits for the Europan environment. Any of these morphs (including the takko) can be modified for survival on Europa, adding hydrostatic pressure adaption and temperature tolerance (improved cold). Increase CP Cost by 5; Credit Cost remains the same.'
       },
     ],
+    image: 'neo-whale.png',
   },
   {
     id: 70,
@@ -1335,6 +1479,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants: [],
+    image: 'shaper.png',
   },
   {
     id: 71,
@@ -1353,6 +1498,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 2/8, Hopper 4/20, Rotor 4/32',
     speed: '1',
     variants: [],
+    image: 'skulker.png',
   },
   {
     id: 72,
@@ -1371,6 +1517,603 @@ const MORPHS_DATA = [
     mobility: 'Walker 4/24, Thrust Vector 8/40',
     speed: '1',
     variants: [],
+    image: 'takko.png',
+  },
+  {
+    id: 73,
+    name: 'Ariel',
+    type: 'Biomorph',
+    description: 'Titan-adapted hulder morphs encouraged designers on Profunda to develop a Titan-adapted flyer',
+    details: 'The surprising number of transhumans who chose to sleeve in Titan-adapted hulder morphs encouraged designers on Profunda to develop a Titan-adapted flyer. While the sturdy hulder morph is designed for nomadic herders, the ariel morph is designed by people who wish to survive by hunting. Individuals sleeved in the ariel morph can hunt and eat Titanian caribou, but they most often eat the smaller rabbit-like creatures that Profunda designers have also recently designed to live on Titan. Ariel morphs have exotic-looking heads similar to those of hulder morphs, but they also possess sleek and streamlined humanoid bodies with four limbs and a pair of bat-like wings. These morphs have also been used by a few daring transhumans to explore the upper cloud layers of both Saturn and Uranus.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Claws, Cortical Stack, Direction Sense, Enhanced Vision, Long-Term Life Support, Low Pressure Tolerance, Oxygen Reserve, Prehensile Feet, Radiation Sense, T-Ray Emitter, Temperature Tolerance (Cryonic), Wings',
+    aptitude_max: '30',
+    durability: '30',
+    wound_threshold: '6',
+    advantages: '+5 COG, +5 REF, +5 to two other aptitudes of the player’s choice',
+    disadvantages: 'Temperature Intolerance (Warm) trait, Non-Mammalian Biochemistry trait',
+    cp_cost: '50',
+    credit_cost: 'Expensive (minimum 50,000+)',
+    mobility: 'Feet 4/20, Winged 8/40',
+    speed: '1',
+    variants: [],
+    image: 'ariel.png',
+  },
+  {
+    id: 74,
+    name: 'Ayah',
+    type: 'Pod',
+    description: 'The ayah pod morph is designed to fulfill nurse and caretaker functions',
+    details: 'The ayah pod morph is designed to fulfill nurse and caretaker functions. Many hyperelites prefer AGI servants sleeved into ayah morphs, especially in polities where AGIs have few, if any, legal rights. Ayahs are almost always female with pleasant but not stunningly beautiful features. Most of the enhanced features of an ayah are built under the hood, so to speak. Their enhanced olfactory capabilities help them monitor the health and emotional state of their wards, as well as alert them to potential environmental dangers. Their ability to withstand temperature extremes and survive without air for short periods helps them protect and rescue their charges in an emergency, such as a hull breach or a fire. Ayahs are often modified with bioweave armor and implanted weapons so they can act as a last line of defense against potential attackers.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Smell, Mnemonic Augmentation, Oxygen Reserve, Puppet Sock, Temperature Tolerance, Wrist-Mounted Tools',
+    aptitude_max: '30',
+    durability: '35',
+    wound_threshold: '7',
+    advantages: '+10 SAV, +5 to one other aptitude of the player’s choice',
+    disadvantages: 'Social Stigma (Pod) trait',
+    cp_cost: '25',
+    credit_cost: 'Expensive',
+    mobility: 'Feet 4/20',
+    speed: '1',
+    variants: [],
+    image: 'ayah.png',
+  },
+  {
+    id: 75,
+    name: 'Basic Pod',
+    type: 'Pod',
+    description: 'Basic pods are essentially lower-cost pod versions of a splicer morph.',
+    details: 'Basic pods are essentially lower-cost pod versions of a splicer morph. To keep expenses down, this pod has slightly more mechanical parts than most other pods. As a result, it has more obvious cybernetic components',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Mnemonic Augmentation, Puppet Sock',
+    aptitude_max: '25',
+    durability: '30',
+    wound_threshold: '6',
+    advantages: '+5 to one aptitude of the player’s choice',
+    disadvantages: 'Social Stigma (Pod) trait',
+    cp_cost: '5',
+    credit_cost: 'Moderate',
+    mobility: 'Feet 4/20',
+    speed: '1',
+    variants: [],
+    image: 'basic_pod.png',
+  },
+  {
+    id: 76,
+    name: 'Biocore',
+    type: 'Synthetic Morph',
+    description: 'The biocore is a synthmorph with a biological brain.',
+    details: 'The biocore is a synthmorph with a biological brain. This design is favored by those who wish to enjoy the advantages of sleeving in a synthmorph without the risk of brainhacking or who simply dislike the idea of using a cyberbrain (including some asyncs). Most models feature a stylized but transparent braincase, to show off the biocore’s main feature, but others appear to be ordinary synthmorphs from the outside; only a detailed physical examination can determine that it actually contains a living brain.',
+    implants: 'Access Jacks, Basic Mesh Inserts, Brain Box, Cortical Stack, Eidetic Memory',
+    aptitude_max: '30',
+    durability: '40',
+    wound_threshold: '8',
+    advantages: '+5 SOM, +5 to two other aptitudes of the player’s choice, Armor 6/6',
+    disadvantages: 'Social Stigma (Clanking Masses) trait',
+    cp_cost: '50',
+    credit_cost: 'Expensive (minimum 60,000+)',
+    mobility: 'Walker 4/20',
+    speed: '1',
+    variants: [],
+    image: 'biocore.png',
+  },
+  {
+    id: 77,
+    name: 'Blackbird',
+    type: 'Synthetic Morph',
+    description: 'When they’re seen at all, these morphs resemble a matte gray neo-corvid with many odd, sharp angles.',
+    details: 'When they’re seen at all, these morphs resemble a matte gray neo-corvid with many odd, sharp angles. Blackbirds are consummate stealth morphs, designed to evade visual observation and radar during recon or infiltration. In part due to aesthetics, they’re a favorite of neo-ravens.',
+    implants: 'Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Vision, Invisibility, Mnemonic Augmentation, Puppet Sock, Reduced Signature, Wings',
+    aptitude_max: '30 (20 SOM)',
+    durability: '25',
+    wound_threshold: '5',
+    advantages: '+5 COO, +5 REF, +5 to one other aptitude of the player’s choice, +10 Flight skill, +10 Infiltration skill, Armor 2/2, Beak/Claw Attack (1d10 + 1 DV, AP −1), Small Size trait',
+    disadvantages: '',
+    cp_cost: '45',
+    credit_cost: 'Expensive (minimum 45,000)',
+    mobility: 'Walker 2/16, Hopper 4/20, Winged 8/40',
+    speed: '1',
+    variants: [],
+    image: 'blackbird.png',
+  },
+  {
+    id: 78,
+    name: 'Brusier',
+    type: 'Biomorph',
+    description: 'This morph is specifically designed to be large, strong, and physically intimidating',
+    details: 'This morph is specifically designed to be large, strong, and physically intimidating. Adopted early on by some sports performers, it quickly became a favorite among criminal cartels and thugs. At 2.5 meters tall, the morph may have difficulty moving comfortably in all but the most open and uncrowded of habitats. This morph’s “claws” extend from its knuckles and are more like reinforced bone brass knuckles.',
+    implants: 'Adrenal Boost, Basic Biomods, Basic Mesh Inserts, Claws, Cortical Stack, Hardened Skeleton',
+    aptitude_max: '30 (SOM 40)',
+    durability: '60 (includes Hardened Skeleton bonus)',
+    wound_threshold: '12',
+    advantages: '+10 Intimidation skill, +15 SOM (includes Hardened Skeleton bonus), +5 REF (+15 with Adrenal Booost), +5 to one other aptitude of the player’s choice',
+    disadvantages: 'Unattractive (Level 1) trait, Large Size trait',
+    cp_cost: '60',
+    credit_cost: 'Expensive (minimum 60,000+)',
+    mobility: 'Feet 4/20',
+    speed: '1',
+    variants: [],
+    image: 'bruiser.png',
+  },
+  {
+    id: 79,
+    name: 'Cloud Skate',
+    type: 'Biomorph',
+    description: 'It is designed to be able to live in the atmospheres of gas giants, including Jupiter.',
+    details: 'Like the surya and hulder, the cloud skate is another biomorph that pushes the edge of what is possible. It is designed to be able to live in the atmospheres of gas giants, including Jupiter. This morph is shaped roughly like a tailless stingray with a pair of slender arms. The version of the swim bladder used by this morph provides neutral buoyancy in dense atmospheres, preventing it from sinking below a safe depth.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Direction Sense, Enhanced Vision, High-G Adaptation, Hydrostatic Pressure Adaptation, Long-Term Life Support, Oxygen Reserve, Radiation Sense, Radar, Swim Bladder, T-Ray Emitter, Temperature Tolerance (Cryonic), Wings',
+    aptitude_max: '30',
+    durability: '35',
+    wound_threshold: '7',
+    advantages: '+5 COG, +5 REF, +5 SOM, +5 to one other aptitude of the player’s choice',
+    disadvantages: 'Temperature Intolerance (Warm) trait',
+    cp_cost: '55',
+    credit_cost: 'Expensive (minimum 60,000+)',
+    mobility: 'Winged 8/40',
+    speed: '1',
+    variants: [],
+    image: 'cloud_skate.png',
+  },
+  {
+    id: 80,
+    name: 'Cloud Skimmer',
+    type: 'Synthetic Morph',
+    description: 'This streamlined synthmorph is designed for exploring the atmospheres of gas giants',
+    details: 'This streamlined synthmorph is designed for exploring the atmospheres of gas giants, but its internal rocket also allows it to operate in vacuum. It can travel to and from a ship in orbit around a gas giant into the planet’s atmosphere on its own. The morph is a flattened oval that can extend up to four flexible arms. The swim bladder acts much like a high-pressure balloon to help keep the morph aloft in a gas giant’s dense atmosphere.',
+    implants: 'Access Jacks, Basic Mesh Inserts, Cortical Stack, Cryonic Protection, Cyberbrain, Direction Sense, Enhanced Vision, Extra Limbs (4 Arms), Hydrostatic Pressure Adaptation, Internal Rocket, Mnemonic Augmentation, Puppet Sock, Radar, Swim Bladder, Telescoping Limbs',
+    aptitude_max: '30',
+    durability: '40',
+    wound_threshold: '8',
+    advantages: '4 arms, +10 SOM, +5 REF, +5 to one other aptitude of the player’s choice, Armor 10/10',
+    disadvantages: '',
+    cp_cost: '65',
+    credit_cost: 'Expensive (minimum 70,000+)',
+    mobility: 'Thrust Vector 8/40',
+    speed: '1',
+    variants: [],
+    image: 'cloud_skimmer.png',
+  },
+  {
+    id: 81,
+    name: 'Critter',
+    type: 'Pod',
+    description: 'Critters are pods either genetically blended from multiple animal species or simply biosculpted to appear as such',
+    details: 'Critters are pods either genetically blended from multiple animal species or simply biosculpted to appear as such. Originally popular among those looking for smarter and distinctive AI-operated pets, they’ve since expanded to patrol duty and beyond. Critter pods come in almost every conceivable type of animal shape, from cats to skunks to chimerical lizard-hyena hybrids. The vast majority are quadruped and stick close to the animal type’s body plan, though anthropomorphic models are also available and there is a great deal of body-sculpted variety. Currently popular in the inner system is the bastet, a composite of several wild cat species that resembles a tawny panther or lion, often with intricate patterns based on Egyptian hieroglyphs in their fur. Some users prefer smaller models of this morph with the Reduced Size trait',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Claws, Cortical Stack, Cyberbrain, Enhanced Hearing, Enhanced Smell, Mnemonic Augmentation, Puppet Sock',
+    aptitude_max: '30',
+    durability: '35',
+    wound_threshold: '7',
+    advantages: '+5 REF, +5 COO',
+    disadvantages: 'Lacks Manipulators trait, quadrupeds have a difficult time in microgravity (–30 to Free Fall Tests), Non-Human Biochemistry trait',
+    cp_cost: '15',
+    credit_cost: 'Expensive',
+    mobility: 'Feet 4/20',
+    speed: '1',
+    variants: [],
+    image: 'critter.png',
+  },
+  {
+    id: 82,
+    name: 'Daitya',
+    type: 'Synthetic Morph',
+    description: 'This huge, vaguely anthropomorphic synthmorph is designed for large construction projects',
+    details: 'This huge, vaguely anthropomorphic synthmorph is designed for large construction projects and similar heavy industrial uses, such as moving giant objects. At just under three-meters tall and with a mass of almost one ton, the daitya is essentially an industrial mech. Modified versions have occasionally been deployed for combat purposes.',
+    implants: 'Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Grip Pads, Hardened Skeleton, Industrial Armor, Mnemonic Augmentation, Pneumatic Limbs (Arms), Puppet Sock, Radar, 4 Weapon Mounts (Disassembly Tools; 2 fixed, 2 articulated), Wrist-Mounted Tools',
+    aptitude_max: '30 (40 SOM)',
+    durability: '100 (includes Hardened Skeleton bonus)',
+    wound_threshold: '20',
+    advantages: '+15 SOM (includes Hardened Skeleton bonus), +5 to one other aptitude of the player’s choice, Armor 10/10 (20/20 with Industrial Armor), melee attacks with the large-size frame or disassembly tools inflict 3d10 + (SOM ÷ 10) DV at AP −5',
+    disadvantages: 'Large Size trait',
+    cp_cost: '80',
+    credit_cost: 'Expensive (minimum 80,000+)',
+    mobility: 'Walker 8/40',
+    speed: '1',
+    variants: [],
+    image: 'daitya.png',
+  },
+  {
+    id: 83,
+    name: 'Faust',
+    type: 'Biomorph',
+    description: 'Developed in secret by a small group of unaffiliated async genehackers, this morph is not a publicly known model.',
+    details: 'Developed in secret by a small group of unaffiliated async genehackers, this morph is not a publicly known model. It is only available to individuals who discover a connection to this unnamed, underground async network and then download the template from one of several secret mesh sites. The faust is a modified menton morph. Even under the most thorough scans, it appears to be nothing more than a mildly person- alized version of that morph.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack, Eidetic Memory, Endocrine Control, Hyper-Linguist, Math Boost',
+    aptitude_max: '30',
+    durability: '35',
+    wound_threshold: '7',
+    advantages: 'Psi Chameleon trait, Psi Defense (Level 1) trait, +10 COG, +10 WIL, +5 INT, +5 to one other aptitude of the player’s choice',
+    disadvantages: '',
+    cp_cost: '85',
+    credit_cost: 'Expensive (minimum 100,000+)',
+    mobility: 'Feet 4/20',
+    speed: '1',
+    variants: [],
+    image: 'faust.png',
+  },
+  {
+    id: 84,
+    name: 'Fighting Kite',
+    type: 'Synthetic Morph',
+    description: 'Based on the kite morph popular with gatecrashers',
+    details: 'Based on the kite morph popular with gatecrashers, this morph is somewhat more durable and better armored. It also includes a built-in laser as well as anti-detection measures. Its default mode is turbofan-driven rotorcraft; its light weight allows it to fly and hover, even in thin atmospheres and heavy gravities. In streamlined ionic mode, it can travel at high speeds and maneuver in hurricane-force winds. In vacuum, it can drive itself with thrust-vector nozzles. It is occasionally used for aerial reconnaissance, but is most popular with spies, thieves, and discrete bodyguards.',
+    implants: 'Access Jacks, Anti-Glare, Basic Mesh Inserts, Chameleon Skin, Chemical Sniffer, Cortical Stack, Cyberbrain, Enhanced Vision, Mnemonic Augmentation, Neurachem (Level 1), Radar, Radar Absorbent, Shape Adjusting, T-Ray Emitter, Weapon Mount (Internal, Articulated, Laser Pulser), Wings',
+    aptitude_max: '30 (25 SOM)',
+    durability: '30',
+    wound_threshold: '6',
+    advantages: '+5 to two aptitudes of the player’s choice, Armor (4/4), Small Size trait',
+    disadvantages: '',
+    cp_cost: '35',
+    credit_cost: 'Expensive (minimum 40,000+)',
+    mobility: 'Ionic 12/40, Thrust Vector 8/40, Walker 2/8, Winged 8/32',
+    speed: '1',
+    variants: [],
+    image: 'fighting_kite.png',
+  },
+  {
+    id: 85,
+    name: 'Flying Squid',
+    type: 'Pod',
+    description: 'Given the popularity of octomorphs even among non-mercurials, morph designers have sought out a similar morph that is operable in zero g and also designed for speed',
+    details: 'Given the popularity of octomorphs even among non-mercurials, morph designers have sought out a similar morph that is operable in zero g and also designed for speed. Its streamlined form resembles a stylized squid and this morph can move swiftly in both water and air. It can suck either water or air into a cavity in its mantle and then expel it out a siphon in a chosen direction for fast, jet-like propulsion. While popular with neo-octopi, its speed and overall utility has made it an increasingly favorite option with others seeking an aquatic-adapted morph.',
+    implants: '360-Degree Vision, Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Extra Limbs (8 arms, 2 tentacles), Grip Pads, Hydrostatic Pressure Adaptation, Mnemonic Augmentation, Polarization Vision, Puppet Sock',
+    aptitude_max: '30',
+    durability: '40',
+    wound_threshold: '8',
+    advantages: '8 Arms, 2 Tentacles, +5 COO, +5 SOM, +5 to one other aptitude of the player’s choice, +30 Swimming skill, Beak Attack (1d10 + 1 DV, AP –1), Limber (Level 2) trait',
+    disadvantages: 'Social Stigma (Pod) trait, Non-Mammalian Biochemistry trait',
+    cp_cost: '55',
+    credit_cost: 'Expensive (minimum 60,000+)',
+    mobility: 'Submarine 4/36, Thrust Vector 4/28',
+    speed: '1',
+    variants: [],
+    image: 'flying_squid.png',
+  },
+  {
+    id: 86,
+    name: 'Freeman',
+    type: 'Biomorph',
+    description: 'Many leaders want to ensure loyalty or at least obedience from their citizens',
+    details: 'Many leaders want to ensure loyalty or at least obedience from their citizens, especially recently sleeved infugees. The freeman biomorph offers rulers (some would say tyrants or dictators) a chance to offer citizens a new life without worrying about dissidence. Based on the splicer morph, the freeman is genetically modified to be more obedient, which results in lower Willpower. More insidiously, freeman morphs are genetically modified with a protein that makes their neurons sensitive to light. When combined with an optogenetics module implant, these neurons can be activated and deactivated remotely, enabling a monitoring muse or meshed overseer to control the ego’s behavior. (The specific behavior affected is chosen with each optogenetics module implant.) The freeman comes with a specialized monitor AGI installed in a modified ghostrider module. The monitor, usually a modified fork of the tyrant’s muse, watches and reports all suspicious actions taken by the primary ego. The purpose of this implant is often concealed. Citizens who sleeve into a freeman morph are told the implant is a security measure that helps prevent infection from TITAN technology or some similar lie. The module is designed to resist tampering and will report to headquarters the instant it detects a hacker’s intrusion. The monitor muse can manipulate the ego’s behavior or even take control of the morph via its puppet sock, but avoids doing that unless absolutely necessary. Dictators do not want to reveal that their citizens have spies implanted in their skulls, watching them. Surprisingly, some people voluntarily sleeve into freeman morphs, preferring to hand responsibility and decision-making over to other parties, such as the Sendero Luminoso Benevolent Dictatorship habitat in the Neptunian Trojans.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Cortical Stack, Monitor Module, Optogenetics Module, Puppet Sock',
+    aptitude_max: '25',
+    durability: '30',
+    wound_threshold: '6',
+    advantages: '+5 SAV, +5 to one other aptitude of the player’s choice except WIL',
+    disadvantages: '−5 WIL',
+    cp_cost: '10',
+    credit_cost: 'High',
+    mobility: 'Walker 4/20',
+    speed: '1',
+    variants: [],
+    image: 'freeman.png',
+  },
+  {
+    id: 87,
+    name: 'Galatea',
+    type: 'Synthetic Morph',
+    description: 'A group of Lunar morph designers created this high-end synthmorph in an attempt to increase the social acceptance',
+    details: 'A group of Lunar morph designers created this high-end synthmorph in an attempt to increase the social acceptance of synthmorphs by showcasing how attractive and versatile they can be. This elegant morph looks expensive and is designed to allow the user to master any social situation. A few media icons and socialites have already found that this morph’s mixture of utility and novelty value has helped enhance their fame and reputation.',
+    implants: 'Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Enhanced Hearing, Mnemonic Augmentation',
+    aptitude_max: '30',
+    durability: '40',
+    wound_threshold: '8',
+    advantages: '+10 SAV, +5 COO, +5 INT, +5 to one other aptitude of the player’s choice, Armor 6/6',
+    disadvantages: '',
+    cp_cost: '65',
+    credit_cost: 'Expensive (minimum 70,000+)',
+    mobility: 'Walker 4/20',
+    speed: '1',
+    variants: [],
+    image: 'galatea.png',
+  },
+  {
+    id: 88,
+    name: 'Grey',
+    type: 'Biomorph',
+    description: 'Originally created as part of a fad based on 20th-century images of aliens',
+    details: 'Originally created as part of a fad based on 20th-century images of aliens, the grey morph soon became popular with eccentric scientists and engineers. This morph’s slender and weak-looking body stands only 1.5 meters tall, short compared to modern transhumans. Its distinctive large head and eyes strike many transhumans as disturbing.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism, Cortical Stack, Eidetic Memory, Emotional Dampers, Enhanced Vision, Math Boost',
+    aptitude_max: '30 (20 SOM)',
+    durability: '30',
+    wound_threshold: '6',
+    advantages: '+5 COG, +5 WIL, +5 to one other aptitude of the player’s choice',
+    disadvantages: 'Uncanny Valley trait',
+    cp_cost: '25',
+    credit_cost: 'Expensive (minimum 30,000+)',
+    mobility: 'Walker 4/20',
+    speed: '1',
+    variants: [],
+    image: 'grey.png',
+  },
+  {
+    id: 89,
+    name: 'Griefer',
+    type: 'Synthetic Morph',
+    description: 'Griefers are used by vandals, terrorists, and dedicated trolls',
+    details: 'Based on the case synthmorph design, griefers are used by vandals, terrorists, and dedicated trolls to harass enemies and antagonize the masses. Griefers have embedded sound and holographic display systems so they can easily harass an individual or an entire crowd. They are also typically equipped with numerous hacking tools and software aids, though they do not come with these by default. Most importantly, they are built without cortical stacks, so if they are destroyed, the ego cannot be interrogated through psychosurgery. Griefers are illegal in many habitats, especially in the Planetary Consortium, but DRM-free blueprints are easy to find in many darknets, thus making them a persistent annoyance in some systems. A few habitats have passed laws mandating that killing a griefer is not considered murder, assault, or even destruction of property.',
+    implants: 'Access Jacks, Basic Mesh Inserts, Cyberbrain, Holographic Projector, Loudspeakers, Mnemonic Augmentation, Puppet Sock',
+    aptitude_max: '20',
+    durability: '20',
+    wound_threshold: '4',
+    advantages: 'Armor (4/4)',
+    disadvantages: '–5 to two aptitudes of the player’s choice, Lemon trait, No Cortical Stack trait, Social Stigma (Griefer) trait',
+    cp_cost: '5',
+    credit_cost: 'Moderate',
+    mobility: 'Walker 4/16',
+    speed: '1',
+    variants: [],
+    image: 'griefer.png',
+  },
+  {
+    id: 90,
+    name: 'Guard',
+    type: 'Synthetic Morph',
+    description: 'Synthmorph that looks like a Olympian or Fury Morph',
+    details: 'Everyone knows that synthmorphs are tougher and better equipped for serious combat than biomorphs. However, many people in the inner system are not comfortable with using hulking synthmorphs as bodyguards or security personnel. Instead, some choose this subtle and extremely deadly alternative. This morph’s enhanced senses allow it to more easily detect any threats to the person the user is guarding, and the built-in weaponry and moderate armor make it highly resistant to damage. The synthetic mask disguises it quite effectively as an olympian or fury morph.',
+    implants: 'Access Jacks, Basic Mesh Inserts, Chemical Sniffer, Cortical Stack, Cyberbrain, Cyberclaws, Enhanced Vision, Hand Laser, Lidar, Mnemonic Augmentation, Neurachem (Level 1), Puppet Sock, Synthetic Mask, T-Ray Emitter',
+    aptitude_max: '30',
+    durability: '40',
+    wound_threshold: '8',
+    advantages: '+10 SOM, +5 COO, +5 to one other aptitude of the player’s choice, Armor 12/12',
+    disadvantages: '',
+    cp_cost: '60',
+    credit_cost: 'Expensive (minimum 60,000+)',
+    mobility: 'Walker 4/20',
+    speed: '1 + 1 (Neurachem)',
+    variants: [],
+    image: 'guard.png',
+  },
+  {
+    id: 91,
+    name: 'Jenkin',
+    type: 'Synthetic Morph',
+    description: 'The jenkin is a byproduct of desperate measures taken during the Fall',
+    details: 'The handiwork of scum genehacker Neville Orsonglass, the jenkin is a byproduct of desperate measures taken during the Fall. The original model was simply the designer’s attempt to keep him and his crewmates alive on a ship with failing life support and recycling systems. From there, it has evolved into the ultimate survivor’s morph, though the definition of “survivor” has now been extended to “can take all of the drugs and still function sexually.” This seems to be a selling point with the scum. Despite the morph’s stooped posture, rat-like features, and pungent personal aroma, the implau- sibly sized secondary sexual characteristics make it the life of certain kinds of parties.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Digestive Symbiotes, Enhanced Pheromones, Enhanced Respiration, Enhanced Smell, Hibernation, Mnemonic Augmentation, Possum Cache, Prehensile Tail, Puppet Sock, Temperature Tolerance, Toxin Filters',
+    aptitude_max: '25',
+    durability: '35',
+    wound_threshold: '7',
+    advantages: '+5 INT, +5 REF, +5 SOM, Bite Attack (1d10 + 1 DV, AP –1)',
+    disadvantages: 'Social Stigma (Pod) trait, Unattractive (Level 2) trait',
+    cp_cost: '20',
+    credit_cost: 'High in scum swarms, Expensive (minimum 40,000) elsewhere',
+    mobility: 'Walker 4/20',
+    speed: '1',
+    variants: [],
+    image: 'jenkin.png',
+  },
+  {
+    id: 92,
+    name: 'Mimic',
+    type: 'Synthetic Morph',
+    description: 'In its basic form, with its limbs retracted, a mimic morph resembles a spare',
+    details: 'In its basic form, with its limbs retracted, a mimic morph resembles a spare and is only a bit larger than a human head. With its four pencil-thin telescoping legs fully extended, it can stand up to two meters tall, and its arms can also each reach up to two meters from the morph. These limbs can all be fully retracted and the user can also alter the morph’s shape and appearance, causing it to look like almost any small object such as a briefcase, cleaning robot, or household appliance. This morph can easily fit through small spaces and hide itself with great ease and is ideal for infiltration and sabotage missions.',
+    implants: 'Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (4 Legs, 2 Arms), Grip Pads, Mnemonic Augmentation, Puppet Sock, Shape Adjusting, Skinflex, Telescoping Limbs',
+    aptitude_max: '30 (20 SOM)',
+    durability: '25',
+    wound_threshold: '5',
+    advantages: '+5 COO, +5 to one other aptitude of the player’s choice, Armor 4/4, Small Size trait',
+    disadvantages: 'Social Stigma (Clanking Masses) trait',
+    cp_cost: '25',
+    credit_cost: 'Expensive (minimum 30,000)',
+    mobility: 'Walker 5/24 (2/8 with limbs mostly retracted)',
+    speed: '1',
+    variants: [],
+    image: 'mimic.png',
+  },
+  {
+    id: 93,
+    name: 'Nautiloid',
+    type: 'Synthetic Morph',
+    description: '',
+    details: 'Nautiloids are a hybrid of short-range spacecraft and submersible capable of holding up to six passengers and their gear. The morph is shaped like a van-sized nautilus, with crew space in the head and shell. A cluster of tentacular limbs mounted under the observation ports in the head provide both fine and brute force manipulation. Originally created for comet and asteroid mining, the design also proved useful for oceanic exploration by gatecrashing teams and Europans. The morph’s interior includes a desktop cornucopia machine and a maker. It can deploy a pair of retractable pontoons for stability when floating on a liquid surface. A nautiloid’s life support system can support its occupants for up to three months before replenishing—indefinitely if it has a source of hydrogen and oxygen. Nautiloids include radiation shielding, a small airlock, and a healing vat.',
+    implants: 'Basic Mesh Inserts, Cortical Stack, Cyberbrain, Echolocation, Extra Limbs (8 Arms, 2 Tentacles), Hydrostatic Pressure Adaptation, Industrial Armor, Internal Rocket, Mnemonic Augmentation, Pneumatic Limbs (2 of the Arms), Puppet Sock, Radar, Radiation Sense, Swim Bladder, Telescoping Limbs (2 of the Arms), T-Ray Emitter',
+    aptitude_max: '30',
+    durability: '200',
+    wound_threshold: '40',
+    advantages: '+5 SOM, +5 to two other aptitudes of the player’s choice, Armor 10/10 (20/20 with Industrial Armor)',
+    disadvantages: 'Very Large Size trait',
+    cp_cost: '155',
+    credit_cost: 'Expensive (minimum 150,000+)',
+    mobility: 'Internal Rocket 8/40, Submarine 8/40',
+    speed: '1',
+    variants: [
+      {
+        id: 1,
+        name: 'Bot only version',
+        details: 'Does not contain a cyberbrain',
+        modification: 'Remove Aptitude bonuses',
+      }
+    ],
+    image: 'nautiloid.png',
+  },
+  {
+    id: 94,
+    name: 'Nomad',
+    type: 'Biomorph',
+    description: 'While synthmorphs are the first choice for many gatecrashers, morph designers have made great headway in creating biomorphs suitable for hazardous exoplanets',
+    details: 'While synthmorphs are the first choice for many gatecrashers, morph designers have made great headway in creating biomorphs suitable for hazardous exoplanets. The nomad biomorph is optimized for operating in desert environments and takes many of its traits from the camel, prompting some observers to mistake the nomad for a pod morph. With an elongated face designed like a camel to trap water vapor in the nostrils as the morph exhales, nomads are clearly off-putting to many bioconservatives. Some models also have camel feet for better travels in sandy dune environments. Nomads are actually quite hefty under normal circumstances, as they are designed to be able to carry large amounts of fat tissue. Their fat tissue can be moved around their body to adapt to high or low temperatures. When nomads are in the field, however, they can become quite skinny, as they survive for months on their fat tissue alone.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Cortical Stack, Efficient Digestion, Enhanced Respiration, Fat Storage, Medichines, Respirocytes, Temperature Tolerance (Improved Cold), Toxin Filters',
+    aptitude_max: '30',
+    durability: '45 (includes Respirocytes bonus)',
+    wound_threshold: '9',
+    advantages: '+5 REF, +5 SOM, +5 to one other aptitude of the player’s choice (includes penalties for Efficient Digestion)',
+    disadvantages: 'Uncanny Valley trait',
+    cp_cost: '30',
+    credit_cost: 'Expensive',
+    mobility: 'Feet 4/20',
+    speed: '1',
+    variants: [],
+    image: 'nomad.png',
+  },
+  {
+    id: 95,
+    name: 'Observer',
+    type: 'Biomorph',
+    description: 'Observers have their minds enhanced to bolster intuitive, analytical, and investigative capabilities',
+    details: 'Observers have their minds enhanced to bolster intuitive, analytical, and investigative capabilities. They are favored by detectives and others with a mind towards details, puzzles, and thin-slicing.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Cortical Stack',
+    aptitude_max: '30',
+    durability: '35',
+    wound_threshold: '7',
+    advantages: '+10 INT, +5 COG, +5 REF, +5 to one other aptitude of the player’s choice',
+    disadvantages: '',
+    cp_cost: '40',
+    credit_cost: 'Expensive',
+    mobility: 'Feet 4/20',
+    speed: '1',
+    variants: [],
+    image: 'observer.png',
+  },
+  {
+    id: 96,
+    name: 'Opteryx',
+    type: 'Synthetic Morph',
+    description: 'This recon morph is designed to be a fast, lightweight runner, climber, and flyer',
+    details: 'This recon morph is designed to be a fast, lightweight runner, climber, and flyer. The opteryx looks like a one-meter-tall winged, synthetic dinosaur and adopts an almost horizontal body posture when running, its tail held out for balance. Its wings are fully functional arms equipped with claws. This morph is a favorite for gatecrashers and neo-avians in the dinosaur identity subculture. It comes equipped with cartography package software.',
+    implants: 'Access Jacks, Basic Mesh Inserts, Claws, Cortical Stack, Cyberbrain, Enhanced Vision, Grip Pads, Mnemonic Augmentation, Pneumatic Limbs (Legs), Prehensile Tail, Wings',
+    aptitude_max: '30 (25 SOM)',
+    durability: '25',
+    wound_threshold: '5',
+    advantages: '+5 COO, +5 INT, +5 REF, +10 Climbing skill, +10 Flight skill, Armor 2/2, Small Size Trait',
+    disadvantages: '',
+    cp_cost: '40',
+    credit_cost: 'Expensive (minimum 40,000+)',
+    mobility: 'Walker 8/40, Winged 8/40',
+    speed: '1',
+    variants: [],
+    image: 'opteryx.png',
+  },
+  {
+    id: 97,
+    name: 'Rover',
+    type: 'Synthetic Morph',
+    description: 'Rover morphs are a smaller, defense-oriented version of the sphere morph',
+    details: 'Rover morphs are a smaller, defense-oriented version of the sphere morph. Each rover is 0.6 meters in diameter and, with its limbs retracted, has the ominous appearance of a reflective, shiny, black globe. It can extrude three arms, each with a built-in weapon: extendable claws, a small laser, and a heavy rail pistol loaded with 200 rounds of ammunition. Rovers are stealthy and highly maneuverable and so favored for bodyguard and police purposes in some areas. They are often deployed via remote control.',
+    implants: '360-Degree Vision, Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cyberclaws, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (3 Arms), Gas-Jet System, Hand Laser, Mnemonic Augmentation, Neurachem (Level 1), Puppet Sock, Radar Absorbent, Reduced Signature, T-Ray Emitter, Telescoping Limbs, Weapon Mount (Articulated, Heavy Rail Pistol)',
+    aptitude_max: '30',
+    durability: '25',
+    wound_threshold: '5',
+    advantages: '+5 COO, +5 REF, + 5 INT, +5 to one other aptitude of the player’s choice, Armor 10/10, Small Size trait',
+    disadvantages: '',
+    cp_cost: '60',
+    credit_cost: 'Expensive (minimum 60,000+)',
+    mobility: 'Roller 8/32, Thrust Vector 12/40',
+    speed: '1 + 1 (Neurachem)',
+    variants: [],
+    image: 'rover.png',
+  },
+  {
+    id: 98,
+    name: 'Samsa',
+    type: 'Pod',
+    description: 'The samsa was the first attempt to create a combat pod model with a terrifying appearance',
+    details: 'The samsa was the first attempt to create a combat pod model with a terrifying appearance. The samsa is an intimidating, two-meter-tall, four-armed, four-legged, humanoid insect. Samsas are an unsettling sight to many transhumans. They are most commonly used by mercenaries and enforcers in the rim. Their armored carapace provides protection and the extra limbs allow a character to dual wield rifles or other two-handed weapons.',
+    implants: '360-Degree Vision, Basic Biomods, Basic Mesh Inserts, Carapace Armor, Chameleon Skin, Cortical Stack, Cyberbrain, Cyberclaws, Enhanced Vision, Extra Limbs (4 Arms, 4 Legs), Grip Pads, Hardened Skeleton, Mnemonic Augmentation, Neurachem (Level 1), Puppet Sock, Temperature Tolerance',
+    aptitude_max: '30',
+    durability: '50 (includes Hardened Skeleton)',
+    wound_threshold: '10',
+    advantages: '20 Intimidation skill, 4 arms, +10 SOM (includes Hardened Skeleton), +5 REF, +5 COO, +5 to one other aptitude of the player’s choice, Carapace Armor (11/11)',
+    disadvantages: 'Social Stigma (Pod) trait, Unattractive (Level 2) trait',
+    cp_cost: '60',
+    credit_cost: 'Expensive (minimum 60,000+)',
+    mobility: 'Feet 4/20',
+    speed: '1 + 1 (Neurachem)',
+    variants: [],
+    image: 'samsa.png',
+  },
+  {
+    id: 99,
+    name: 'Security Pod',
+    type: 'Pod',
+    description: 'Security pods were essentially mass-produced AI-operated soldiers',
+    details: 'Originally developed for joint-nation peace-keeping missions and border/enclave security roles, security pods were essentially mass-produced AI-operated soldiers. For obvious reasons, they fell out of favor during the Fall, but they are slowly regaining acceptance. They are a favored morph by mercenaries for infiltration and guerrilla warfare purposes.',
+    implants: 'Adrenal Boost, Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Claws, Cortical Stack, Cyberbrain, Eelware, Enhanced Vision, Grip Pads, Mnemonic Augmentation, Puppet Sock, T-Ray Emitter',
+    aptitude_max: '30',
+    durability: '35',
+    wound_threshold: '7',
+    advantages: '+10 SOM, +5 to one other aptitude of the player’s choice',
+    disadvantages: 'Social Stigma (Pod) trait',
+    cp_cost: '30',
+    credit_cost: 'Expensive',
+    mobility: 'Feet 4/20',
+    speed: '1',
+    variants: [],
+    image: 'security_pod.png',
+  },
+  {
+    id: 100,
+    name: 'Sphere',
+    type: 'Synthetic Morph',
+    description: 'Popular with AGIs and synthmorph activists, this morph is a sphere approximately one meter in diameter',
+    details: 'Popular with AGIs and synthmorph activists, this morph is a sphere approximately one meter in diameter. It can extend up to four flexible limbs as required, and typically hovers at approximately human eye level. The first tests of this morph revealed that the chameleon surface was necessary because it allows the user to display the image of a face, which made most transhumans both more comfortable talking with this morph and less likely to assume that it is a robot.',
+    implants: '360-Degree Vision, Access Jacks, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (4 Arms), Gas-Jet System, Mnemonic Augmentation, Puppet Sock, Telescoping Limbs',
+    aptitude_max: '30',
+    durability: '35',
+    wound_threshold: '7',
+    advantages: '4 arms, +10 COG, +5 to three other aptitudes of the player’s choice, Armor 6/6',
+    disadvantages: '',
+    cp_cost: '65',
+    credit_cost: 'Expensive (minimum 70,000+)',
+    mobility: 'Roller 8/32, Thrust Vector 4/20',
+    speed: '1',
+    variants: [],
+    image: 'sphere.png',
+  },
+  {
+    id: 101,
+    name: 'Synthtaur',
+    type: 'Synthetic Morph',
+    description: 'The synthtaur resembles an elegant mechanical centaur',
+    details: 'The synthtaur resembles an elegant mechanical centaur, but is a versatile and extremely durable synthmorph. The shape adjusting enhancement allows it to switch between being a two-armed quadruped standing 1.7 meters tall or a four-armed biped standing 2.4 meters high, as well as allowing it to fit into small spaces. Its telescoping legs even allow it to reduce its height to become a 2-meter-tall bipedal humanoid. This morph is popular with gatecrashers, people exploring ruined habitats, and anyone going into dangerous and remote situations.',
+    implants: 'Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Extra Limbs (6 Arms/Legs), Grip Pads, Mnemonic Augmentation, Pneumatic Limbs (2 Hind Legs), Prehensile Feet, Shape Adjusting, Telescoping Limbs (4 Lower Arms/Legs)',
+    aptitude_max: '30 (40 SOM)',
+    durability: '60',
+    wound_threshold: '8',
+    advantages: '6 Arms/Legs, +10 SOM, +5 to two other aptitudes of the player’s choice, Armor 8/8',
+    disadvantages: 'Large Size Trait',
+    cp_cost: '70',
+    credit_cost: 'Expensive (minimum 80,000+)',
+    mobility: 'Walker 6/40 quadruped, 4/20 biped',
+    speed: '1',
+    variants: [],
+    image: 'synthtaur.png',
+  },
+  {
+    id: 102,
+    name: 'Theseus',
+    type: 'Biomorph',
+    description: 'While there are no sanctioned explorations of Earth, a few daring or greedy transhumans defy the laws to salvage there',
+    details: 'While there are no sanctioned explorations of Earth, a few daring or greedy transhumans defy the laws to salvage there. Some scavengers and explorers still scour the ruins of habitats that were destroyed during the Fall. Others look for wealth and secrets in the quarantined zones on Luna and Mars. Some simply seek out remaining TITAN machines to destroy, wherever they may be found. The theseus is a popular biomorph for this type of work. Its medichines and nanophages keep the morph protected from most attacks by exsurgent nanotech, and the lack of a cyberbrain makes it less vulnerable to mind hacking. An emergency farcaster allows the user to safely return from situations where both their morph and their cortical stack might be destroyed or corrupted.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Direction Sense, Emergency Farcaster, Enhanced Vision, Low Pressure Tolerance, Medichines, Nanophages, Oxygen Reserve, Radiation Sense, T-Ray Emitter, Temperature Tolerance (Cold), Toxin Filters',
+    aptitude_max: '30',
+    durability: '40',
+    wound_threshold: '8',
+    advantages: '+5 SOM, +5 WIL, +5 to one other aptitude of the player’s choice',
+    disadvantages: '',
+    cp_cost: '30',
+    credit_cost: 'Expensive',
+    mobility: 'Walker 4/20',
+    speed: '1',
+    variants: [],
+    image: 'theseus.png',
+  },
+  {
+    id: 103,
+    name: 'Vacuum Pod',
+    type: 'Pod',
+    description: 'Pod optimized for vacwork',
+    details: 'Optimized for vacwork, this pod is preferred in situations where novacrabs or synths don’t fare as well socially. The vacuum pod is based on the bouncer morph and looks superficially identical to one.',
+    implants: 'Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Cyberbrain, Enhanced Respiration, Grip Pads, Mnemonic Augmentation, Oxygen Reserve, Prehensile Feet, Puppet Sock, Vacuum Sealing',
+    aptitude_max: '30',
+    durability: '35',
+    wound_threshold: '7',
+    advantages: 'Limber (Level 1) trait, +5 COO, +5 SOM, +5 to one other aptitude of the player’s choice',
+    disadvantages: 'Social Stigma (Pod) trait',
+    cp_cost: '30',
+    credit_cost: 'Expensive (minimum 0,000+)',
+    mobility: 'Walker 4/20',
+    speed: '1',
+    variants: [],
+    image: 'vacuum_pod.png',
   },
 ]
 
@@ -1381,30 +2124,46 @@ export default function Morphs() {
     <>
       <h3>{item.name}</h3>
       <p>{item.details}</p>
-      <p><strong>Type:</strong> {item.type}</p>
-      <p><strong>Implants:</strong> {item.implants}</p>
-      <p><strong>Mobility System:</strong> {item.mobility}</p>
-      <p><strong>Aptitude Maximum:</strong> {item.aptitude_max}</p>
-      <p><strong>Speed:</strong> {item.speed}</p>
-      <p><strong>Durability:</strong> {item.durability}</p>
-      <p><strong>Wound Threshold:</strong> {item.wound_threshold}</p>
-      <p><strong>Advantages:</strong> {item.advantages}</p>
-      <p><strong>Disadvantages:</strong> {item.disadvantages}</p>
-      <p><strong>CP Cost:</strong> {item.cp_cost}</p>
-      <p><strong>Credit Cost:</strong> {item.credit_cost}</p>
-      {item.variants.length > 0 && (
-        <div>
-          <strong>Variants</strong>
-          <ul>
-            {item.variants.map((item, index) => (
-              <li key={item.id}>
-                <h4>{item.name}</h4>
-                <p>{item.details}</p>
-              </li>
-            ))}
-          </ul>
+      <div className="container">
+        <div className="column">
+          <p><strong>Type:</strong> {item.type}</p>
+          <p><strong>Implants:</strong> {item.implants}</p>
+          <p><strong>Mobility System:</strong> {item.mobility}</p>
+          <p><strong>Aptitude Maximum:</strong> {item.aptitude_max}</p>
+          <p><strong>Speed:</strong> {item.speed}</p>
+          <p><strong>Durability:</strong> {item.durability}</p>
+          <p><strong>Wound Threshold:</strong> {item.wound_threshold}</p>
+          <p><strong>Advantages:</strong> {item.advantages}</p>
+          <p><strong>Disadvantages:</strong> {item.disadvantages}</p>
+          <p><strong>CP Cost:</strong> {item.cp_cost}</p>
+          <p><strong>Credit Cost:</strong> {item.credit_cost}</p>
+          {item.variants.length > 0 && (
+            <div>
+              <strong>Variants</strong>
+              <ul>
+                {item.variants.map((item, index) => (
+                  <li key={item.id}>
+                    <h4>{item.name}</h4>
+                    <p>{item.details}</p>
+                    {item.implants && (<p><strong>Enhancements:</strong>{item.implants}</p>)}
+                    {item.modification && (<p><strong>Additional Changes:</strong>{item.modification}</p>)}
+                    {item.speed && (<p><strong>Speed:</strong>{item.speed}</p>)}
+                    {item.cp_cost && (<p><strong>CP Cost:</strong>{item.cp_cost}</p>)}
+                    {item.credit_cost && (<p><strong>Credit Cost:</strong>{item.credit_cost}</p>)}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
-      )}
+        <div className="column w-51 h-68 lg:w-120 lg:h-300">
+          <img
+            src={"./images/morphs/" + item.image}
+            alt={"./images/morphs/" + item.image}
+            className="max-w-full max-h-full object-contain"
+            />
+        </div>
+      </div>
     </>
   )
 
@@ -1415,6 +2174,16 @@ export default function Morphs() {
       <p>
         Morphs are the physical forms that your character inhabits. You can transfer your consciousness between morphs through resleeving.
       </p>
+      <p>
+        Morphs come in 4 basic types:
+      </p>
+      <ul>
+        <li><strong>Biomorph</strong> - Fully biological, born naturally or in an exowomb and grown to adulthood either naturally or at a slightly accelerated rate.</li>
+        <li><strong>Pod</strong> - Vat-grown, biological bodies with extremely undeveloped brains that are augmented with an implanted computer and cybernetics systems.</li>
+        <li><strong>Synthmorph</strong> - Completely artificial/robotic. Typically operated by an AI or via remote control, infugees have resorted to resleeving into these as well.</li>
+        <li><strong>Infomorph</strong> - No body, your consciousness exists digitially in the mesh.</li>
+      </ul>
+      
 
       <div className="searchable-container">
         <SearchableList

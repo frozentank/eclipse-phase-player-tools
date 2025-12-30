@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   --primary-bg: #0f0f23;
   --secondary-bg: #1a1a2e;
@@ -100,4 +102,13 @@ th {
 
 td {
     text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 16px; /* space between columns */
+}
+
+.column {
+  flex: 1; /* both columns same width */
 }

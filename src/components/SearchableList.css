@@ -178,3 +178,12 @@
     margin-bottom: 0.5rem;
   }
 }
+
+.container {
+  display: flex;
+  gap: 16px; /* space between columns */
+}
+
+.column {
+  flex: 1; /* both columns same width */
+}

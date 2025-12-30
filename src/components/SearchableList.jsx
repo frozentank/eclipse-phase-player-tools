@@ -35,7 +35,7 @@ export default function SearchableList({ items, searchFields = [], onSelect, sel
       <div className="list-container">
         <ul className="item-list">
           {filteredItems.length > 0 ? (
-            filteredItems.map(item => (
+            filteredItems.sort((a,b) => a.name > b.name).map(item => (
               <li key={item.id} className="list-item-wrapper">
                 <div
                   className={`list-item ${selectedItem?.id === item.id ? 'selected' : ''}`}
