@@ -86,6 +86,7 @@ export default function Navigation() {
             <div className="dropdown-menu dropdown-menu-right">
               <Link to="/actions" onClick={handleLinkClick}>Actions & Combat</Link>
               <Link to="/mesh" onClick={handleLinkClick}>The Mesh</Link>
+              <Link to="/psychosurgery" onClick={handleLinkClick}>Psychosurgery</Link>
             </div>
           </li>
         </ul>

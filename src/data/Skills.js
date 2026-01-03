@@ -511,6 +511,6 @@ const SKILLS_DATA = [
     sample: 'Neo-cetacean, !Kung, Al-Sayyid Bedouin Sign, Arogonese, Chong, Karon, Mayan Sign, Michif, Warlpiri Sign',
     specialization: 'As appropriate to the field, representing dialects, technical jargon, and subcultural slang.',
   },
-]
+];
 
 export default SKILLS_DATA;

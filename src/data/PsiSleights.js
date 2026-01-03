@@ -434,6 +434,6 @@ const PSI_SLEIGHTS_DATA = [
         strain: '-1',
         skill: 'Sense',
     },
-]
+];
 
 export default PSI_SLEIGHTS_DATA;

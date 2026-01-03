@@ -16,6 +16,7 @@ import PsiUsing from './pages/psi/PsiUsing'
 import PsiSleights from './pages/psi/PsiSleights'
 import Gear from './pages/Gear'
 import Mesh from './pages/Mesh'
+import Psychosurgery from './pages/Pyschosurgery'
 
 import './App.css'
 
@@ -39,6 +40,7 @@ function App() {
           <Route path="mesh" element={<Mesh />} />
           <Route path="psi/using" element={<PsiUsing />} />
           <Route path="psi/sleights" element={<PsiSleights />} />
+          <Route path="psychosurgery" element={<Psychosurgery />} />
         </Routes>
       </main>
     </HashRouter>

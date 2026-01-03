@@ -2112,6 +2112,6 @@ const MORPHS_DATA = [
     variants: [],
     image: 'vacuum_pod.png',
   },
-]
+];
 
 export default MORPHS_DATA;
