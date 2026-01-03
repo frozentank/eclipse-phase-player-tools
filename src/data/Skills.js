@@ -5,7 +5,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'COG',
     description: 'Knowledge',
     what_it_is: 'Academics covers any sort of specialized non-applied knowledge you can only get through intensive education. Most theoretical and applied sciences, social sciences, transhumanities, etc. are covered by this skill. Most of the other skills listed in this chapter could also be taken as an Academics field, reflecting a working theoretical knowledge of the skill—for example, Academics: Armorer or Academics: Interrogation.',
-    when_you_use_it: 'Academics is used when a character wishes to call upon a specific body of knowledge. For example, Academics: Chemistry could be used to identify a particular substance, understand an unusual chemical reaction, or determine what elements are needed to nanofabricate something that requires exotic materials. At the gamemaster’s discretion, some Academics-related tests might not be defaultable, given that only someone who has been educated in that subject is likely to be able to tackle it.',
+    when_you_use_it: 'Academics is used when a character wishes to call upon a specific body of knowledge. For example, Academics: Chemistry could be used to identify a particular substance, understand an unusual chemical reaction, or determine what elements are needed to nanofabricate something that requires exotic materials. At the gamemaster\'s discretion, some Academics-related tests might not be defaultable, given that only someone who has been educated in that subject is likely to be able to tackle it.',
     sample: 'Archeology, Astrobiology, Astronomy, Astrophysics, Astrosociology, Biochemistry, Biology, Botany, Computer Science, Cryptography, Economics, Engineering, Genetics, Geology, Linguistics, Mathematics, Memetics, Nanotechnology, Old Earth History, Physics, Political Science, Psychology, Sociology, Xeno-archeology, Xenolinguistics, Zoology',
     specialization: 'As appropriate to the field'
   },
@@ -15,7 +15,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'SAV',
     description: 'Active, Social',
     what_it_is: 'Skilled animal handlers are able to train and control a wide variety of natural and transgenic animals, including partial uplifts. Though many animal species went extinct during the Fall, a few ark and zoo habitats keep some species alive, and many others can be resurrected from genetic samples. Exotic animals are considered a sign of prestige among the hypercorp elites, and guard animals are occasionally used to protect high-security installations. Likewise, many habitats and settlements employ small armies of partially uplifted, genetically modified, and behavior-controlled creatures for sanitation or other purposes. Many new and strange breeds of animal are created daily to serve a variety of roles.',
-    when_you_use_it: 'Animal Handling is used whenever you are trying to manipulate an animal, whether your intent is to calm it down, keep it from attacking, intimidate it, acquire its trust, or goad it into attacking. Your Margin of Success determines how effective you are at convincing the creature. At the gamemaster’s discretion, modifiers may be applied to the test. Likewise, winning an animal over may sometimes take time and so could be handled as a Task Action with a timeframe of five minutes or more.',
+    when_you_use_it: 'Animal Handling is used whenever you are trying to manipulate an animal, whether your intent is to calm it down, keep it from attacking, intimidate it, acquire its trust, or goad it into attacking. Your Margin of Success determines how effective you are at convincing the creature. At the gamemaster\'s discretion, modifiers may be applied to the test. Likewise, winning an animal over may sometimes take time and so could be handled as a Task Action with a timeframe of five minutes or more.',
     specialization: 'Per animal species (dogs, horses, smart rats, etc.)',
     extra_components: [
         {
@@ -30,7 +30,7 @@ const SKILLS_DATA = [
     name: 'Art: [Field]',
     linkedAptitude: 'INT',
     description: 'Knowledge',
-    what_it_is: 'Art confers the ability to create and evaluate artistic endeavors. This is a particularly useful skill in Eclipse Phase, especially in the post-scarcity economies where creativity and vision can be a key component to a character’s reputation.',
+    what_it_is: 'Art confers the ability to create and evaluate artistic endeavors. This is a particularly useful skill in Eclipse Phase, especially in the post-scarcity economies where creativity and vision can be a key component to a character\'s reputation.',
     when_you_use_it: 'The Art skill can be used to either create a new work of art or to duplicate an existing piece of art in the hopes of passing it off as your own. The skill can also determine the approximate value of a piece of art either on the open market, for monetary exchange systems, or in terms of reputation for the artist.',
     sample: 'Architecture, Criticism, Dance, Drama, Drawing, Painting, Performance, Sculpture, Simulspace Design, Singing, Speech, Writing',
     specialization: 'As appropriate to the field',
@@ -86,7 +86,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'SAV',
     description: 'Active, Social',
     what_it_is: 'Deception is your ability to act, bluff, con, fast talk, lie, misrepresent, and pretend. Accomplished users of deception are able to convince anyone of nearly anything. This skill does not include using a physical disguise or passing yourself off as another person (the Disguise and Impersonate skills cover those areas).',
-    when_you_use_it: 'Use this skill whenever you want to deceive someone with words or gestures. A successful skill test means that you have passed off your deception convincingly. At the gamemaster’s discretion, someone who is actively alert for signs of deception may make an Opposed Test using the Kinesics skill.',
+    when_you_use_it: 'Use this skill whenever you want to deceive someone with words or gestures. A successful skill test means that you have passed off your deception convincingly. At the gamemaster\'s discretion, someone who is actively alert for signs of deception may make an Opposed Test using the Kinesics skill.',
     specialization: 'Acting, Bluffing, Fast Talk',
   },
   {
@@ -104,7 +104,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'INT',
     description: 'Active, Physical',
     what_it_is: 'Disguise is the art of physically altering your appearance so that you look like someone else. This includes both the use of props (wigs, contacts, skin pigments) and the altering of subtle physical characteristics (gait, posture, poise).',
-    when_you_use_it: 'Use Disguise to fool someone into thinking you’re someone you’re not. This can be used to hide your identity or to make yourself look like someone in particular. When used against someone who knows your true look or the appearance of the person you are imitating, this is handled as an Opposed Test against Perception or Investigation.',
+    when_you_use_it: 'Use Disguise to fool someone into thinking you\'re someone you\'re not. This can be used to hide your identity or to make yourself look like someone in particular. When used against someone who knows your true look or the appearance of the person you are imitating, this is handled as an Opposed Test against Perception or Investigation.',
     specialization: 'Cosmetic, Theatrical',
   },
   {
@@ -151,7 +151,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'REF',
     description: 'Active, Physical',
     what_it_is: 'Free Fall is about moving in free-fall and microgravity environments.',
-    when_you_use_it: 'Use whenever you need to maneuver in a zero-g situation, such as propelling yourself across a large open space or making sure you don’t accidentally send yourself spinning off into space. Free Fall is also used when moving with spacesuit maneuvering jets and when parachuting.',
+    when_you_use_it: 'Use whenever you need to maneuver in a zero-g situation, such as propelling yourself across a large open space or making sure you don\'t accidentally send yourself spinning off into space. Free Fall is also used when moving with spacesuit maneuvering jets and when parachuting.',
     specialization: 'Microgravity, Parachuting, Vacsuits',
   },
   {
@@ -185,7 +185,7 @@ const SKILLS_DATA = [
         {
             id: 1,
             title: 'Building',
-            details: 'Creating an item from scratch is handled as a Task Action with a timeframe determined by the gamemaster. The timeframe should be set according to the complexity of the object and could range from an hour (constructing a set of shelves) to days (assembling a robot from spare parts) or even months (building a house). Numerous factors may apply modifiers to the test, such as the use of entoptic blueprints/help manuals (+20) or poor working conditions (–10 to –30). Tools are also a factor, perhaps making the job easier (superior tools +10 to +30), more difficult (poor or inadequate tools, –10 to –30), or even impos- sible (lack of required tools).',
+            details: 'Creating an item from scratch is handled as a Task Action with a timeframe determined by the gamemaster. The timeframe should be set according to the complexity of the object and could range from an hour (constructing a set of shelves) to days (assembling a robot from spare parts) or even months (building a house). Numerous factors may apply modifiers to the test, such as the use of entoptic blueprints/help manuals (+20) or poor working conditions (-10 to -30). Tools are also a factor, perhaps making the job easier (superior tools +10 to +30), more difficult (poor or inadequate tools, -10 to -30), or even impos- sible (lack of required tools).',
         },
         {
             id: 2,
@@ -195,7 +195,7 @@ const SKILLS_DATA = [
         {
             id: 3,
             title: 'Modifying',
-            details: 'Altering an object’s design and function follows the same basic rules as build and repair, above. The timeframe is determined by the gamemaster as appropriate to the modification.',
+            details: 'Altering an object\'s design and function follows the same basic rules as build and repair, above. The timeframe is determined by the gamemaster as appropriate to the modification.',
         },
     ],
   },
@@ -205,7 +205,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'SAV',
     description: 'Active, Social',
     what_it_is: 'Impersonation is the skill of trying to pass yourself off as someone else in social situations, including virtual ones. This includes copying mannerisms and speech patterns and using accumulated information to convince others that you are that person. In a universe where appearance is highly variable, the question of identity is largely one of both trust and picking up on behavioral quirks and verbal cues to recognize a given individual.',
-    when_you_use_it: 'Sometimes it’s fun to pretend you’re someone else, and sometimes it’s profitable or lifesaving. Use this skill whenever you attempt to convince someone that you are actually someone else through some sort of social or online interaction. Forks use this skill when passing themselves off as their alpha ego. Impersonate is handled as an Opposed Test against the Kinesics skill.',
+    when_you_use_it: 'Sometimes it\'s fun to pretend you\'re someone else, and sometimes it\'s profitable or lifesaving. Use this skill whenever you attempt to convince someone that you are actually someone else through some sort of social or online interaction. Forks use this skill when passing themselves off as their alpha ego. Impersonate is handled as an Opposed Test against the Kinesics skill.',
     specialization: 'Avatar, Face-to-Face, Verbal',
   },
   {
@@ -231,7 +231,7 @@ const SKILLS_DATA = [
     name: 'Interest: [Field]',
     linkedAptitude: 'COG',
     description: 'Field, Knowledge',
-    what_it_is: 'Interest includes just about any topic that captures your attention that isn’t covered by another skill. This includes hobbies, obsessions, causes, pastimes, and other recreational pursuits.',
+    what_it_is: 'Interest includes just about any topic that captures your attention that isn\'t covered by another skill. This includes hobbies, obsessions, causes, pastimes, and other recreational pursuits.',
     when_you_use_it: 'Use the Interest skill whenever you need to recall or use knowledge related to the particular interest in question.',
     sample: 'Ancient Sports, Celebrity Gossip, Conspiracies, Factor Trivia, Gambling, Hypercorp Politics, Lunar Habitats, Martian Beers, Old Earth Nation-States, Reclaimer Blogs, Science Fiction, Scum Drug Dealers, Spaceship Models, Triad Economics, Underground XP',
     specialization: 'As appropriate to the field',
@@ -251,7 +251,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'SAV',
     description: 'Active, Social',
     what_it_is: 'Intimidation is convincing someone to do what you want based on direct threats (implied or actual) or sheer force of personality.',
-    when_you_use_it: 'Use Intimidation to scare someone into submission, browbeat them into getting your way, command them to follow your orders, or berate them into giving up information. Influence is handled as an Opposed Test, pitted against the target’s WIL + WIL + SAV.',
+    when_you_use_it: 'Use Intimidation to scare someone into submission, browbeat them into getting your way, command them to follow your orders, or berate them into giving up information. Influence is handled as an Opposed Test, pitted against the target\'s WIL + WIL + SAV.',
     specialization: 'Interrogation, Physical, Verbal',
   },
   {
@@ -269,7 +269,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'SAV',
     description: 'Active, Social',
     what_it_is: 'Kinesics is the art of empathy and non-vocal communication.',
-    when_you_use_it: 'Use Kinesics to read body language, tells, social cues, and other subconscious indicators. It can also be used to emote more effectively. Kinesics is used defensively whenever someone is trying to deceive you; make an Opposed Test against that person’s Deception or Impersonation skill. Though synthetic morphs are also designed to emote, reading them is not as easy. Apply a –30 modifier when judging a synthetic morph inhabited by a character or AGI. Likewise, standard AIs are also difficult to read; apply a –60 modifier when judging a synthetic morph or pod operated by an AI.',
+    when_you_use_it: 'Use Kinesics to read body language, tells, social cues, and other subconscious indicators. It can also be used to emote more effectively. Kinesics is used defensively whenever someone is trying to deceive you; make an Opposed Test against that person\'s Deception or Impersonation skill. Though synthetic morphs are also designed to emote, reading them is not as easy. Apply a -30 modifier when judging a synthetic morph inhabited by a character or AGI. Likewise, standard AIs are also difficult to read; apply a -60 modifier when judging a synthetic morph or pod operated by an AI.',
     specialization: 'Judge Intent, Nonvocal Communication',
     extra_components:[
       {
@@ -298,7 +298,7 @@ const SKILLS_DATA = [
     name: 'Language: [Field]',
     linkedAptitude: 'INT',
     description: 'Field, Knowledge',
-    what_it_is: 'Language covers the speaking and reading of languages other than the player’s native tongue. A speaker is considered fluent at a skill level of 50; anything above this indicates further refinement in technical vocabulary, accents, and knowledge of dialects.',
+    what_it_is: 'Language covers the speaking and reading of languages other than the player\'s native tongue. A speaker is considered fluent at a skill level of 50; anything above this indicates further refinement in technical vocabulary, accents, and knowledge of dialects.',
     when_you_use_it: 'Use the Language skill whenever you want to speak, understand, or read something in a language at which you are skilled. Most speaking and reading comprehension tests can be considered Simple Success Tests if your skill is over 50, unless the gamemaster rules the subject is sufficiently complex that a non-native speaker would have trouble understanding it.',
     sample: 'Arabic, Cantonese, English, French, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish',
     specialization: 'As appropriate to the field, representing dialects, technical jargon, and subcultural slang',
@@ -329,7 +329,7 @@ const SKILLS_DATA = [
     description: 'Active, Social',
     what_it_is: 'Networking is your skill at working your contacts, trading favors, and keeping your finger on the pulse of a particular faction or cultural grouping.',
     when_you_use_it: 'Networking to gather information or call on services using your Reputation',
-    sample: 'Autonomists (@-rep), Criminals (g-rep), Ecologists (e-rep), Firewall (i-rep), Hypercorps (c-rep), Media (f-rep), Scientists (r-rep). At the gamemaster’s discretion, this list can be expanded to other (sub)­ cultural groupings.',
+    sample: 'Autonomists (@-rep), Criminals (g-rep), Ecologists (e-rep), Firewall (i-rep), Hypercorps (c-rep), Media (f-rep), Scientists (r-rep). At the gamemaster\'s discretion, this list can be expanded to other (sub)­ cultural groupings.',
     specialization: 'As appropriate to each field',
   },
   {
@@ -356,7 +356,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'SAV',
     description: 'Active, Social',
     what_it_is: 'Persuasion is the art of convincing someone to do what you want through the use of words and gestures. This does not include persuasion through threats or force (that is covered by Intimidation) or by lying (covered by Deception).',
-    when_you_use_it: 'Use Persuasion any time you are trying to bargain with, convince, or manipulate someone. This can include motivating your subordinates or peers to take action, seducing a companion, winning a political debate, or negotiating a contract, among other things. Persuasion is handled as an Opposed Test against the target’s WIL + WIL + SAV when one person is simply trying to win over another. If both parties are trying to convince each other, make it an Opposed Test between Persuasion skills.',
+    when_you_use_it: 'Use Persuasion any time you are trying to bargain with, convince, or manipulate someone. This can include motivating your subordinates or peers to take action, seducing a companion, winning a political debate, or negotiating a contract, among other things. Persuasion is handled as an Opposed Test against the target\'s WIL + WIL + SAV when one person is simply trying to win over another. If both parties are trying to convince each other, make it an Opposed Test between Persuasion skills.',
     specialization: 'Diplomacy, Morale Boosting, Negotiating, Seduction',
   },
   {
@@ -365,7 +365,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'REF',
     description: 'Field, Active, Vehicle',
     what_it_is: 'Pilot is your skill at driving/flying a vehicle of a particular type.',
-    when_you_use_it: 'You use Pilot skill whenever you need to maneuver, control, or avoid crashing a vehicle, whether you are in the pilot’s seat, remote controlling a robot, or directly jamming a vehicle with VR. Each vehicle has a Handling modifier that applies to this test, along with other situational modifiers',
+    when_you_use_it: 'You use Pilot skill whenever you need to maneuver, control, or avoid crashing a vehicle, whether you are in the pilot\'s seat, remote controlling a robot, or directly jamming a vehicle with VR. Each vehicle has a Handling modifier that applies to this test, along with other situational modifiers',
     sample: 'Aircraft, Anthroform (walkers), Exotic Vehicle, Groundcraft (wheeled or tracked), Spacecraft, Watercraft',
     specialization: 'As appropriate to the field ',
   },
@@ -391,7 +391,7 @@ const SKILLS_DATA = [
         {
             id: 1,
             title: 'Nanofabrication',
-            details: 'Nanofabrication is use of Programming skill to create objects using a cornucopia machine, fabber, or maker. If you have appropriate blueprints and raw materials, most uses of a nanofabricator can be treated as a Simple Success Test, p. 118. If you wish to create an item for which you do not have blueprints or the proper raw materials, however, or you wish to alter an item’s design, then a Nanofabrication Test is called for.'
+            details: 'Nanofabrication is use of Programming skill to create objects using a cornucopia machine, fabber, or maker. If you have appropriate blueprints and raw materials, most uses of a nanofabricator can be treated as a Simple Success Test, p. 118. If you wish to create an item for which you do not have blueprints or the proper raw materials, however, or you wish to alter an item\'s design, then a Nanofabrication Test is called for.'
         },
     ]
   },
@@ -401,13 +401,13 @@ const SKILLS_DATA = [
     linkedAptitude: 'SAV',
     description: 'Active, Social',
     what_it_is: 'Protocol is the art of making a good impression in social settings. This includes keeping up with the latest memes, trends, gossip, interests and habits of various (sub)cultural groups.',
-    when_you_use_it: 'Use Protocol whenever you need to choose your words carefully, determine who is the appropriate person to speak to, impress someone with your grasp of customs, or otherwise fit into a specific social/cultural grouping. Part etiquette, part streetwise, Protocol allows you to navigate treacherous social waters and put people at ease. If the character is dealing with a suspicious or hostile audience, make this an Opposed Test against the target’s WIL + WIL + SAV.',
+    when_you_use_it: 'Use Protocol whenever you need to choose your words carefully, determine who is the appropriate person to speak to, impress someone with your grasp of customs, or otherwise fit into a specific social/cultural grouping. Part etiquette, part streetwise, Protocol allows you to navigate treacherous social waters and put people at ease. If the character is dealing with a suspicious or hostile audience, make this an Opposed Test against the target\'s WIL + WIL + SAV.',
     specialization: 'Anarchist, Brinker, Criminal, Factor, Hypercorp, Infomorph, Mercurial, Reclaimer, Preservationist, Scum, Ultimate',
     extra_components: [
         {
             id: 1,
             title: 'Negating Social Gaffes',
-            details: 'Sometimes a player will make a mistake that their character never would, whether that’s failing to stand in the presence of hypercorp royalty, confusing a gang leader for a peon, or accidentally insulting someone’s heritage. In cases like this, the player may make a Protocol Test for the appropriate field in order to negate the gaffe. If successful, the character never actually screwed up or at least managed to cover their tracks without ruffling any feathers.',
+            details: 'Sometimes a player will make a mistake that their character never would, whether that\'s failing to stand in the presence of hypercorp royalty, confusing a gang leader for a peon, or accidentally insulting someone\'s heritage. In cases like this, the player may make a Protocol Test for the appropriate field in order to negate the gaffe. If successful, the character never actually screwed up or at least managed to cover their tracks without ruffling any feathers.',
         },
     ],
   },
@@ -416,8 +416,8 @@ const SKILLS_DATA = [
     name: 'Psi Assault',
     linkedAptitude: 'WIL (no defaulting)',
     description: 'Active, Mental, Psi',
-    what_it_is: 'Psi Assault is the skill of damaging another ego’s mind. It can only be purchased by characters with the Psi trait',
-    when_you_use_it: 'Use Psi Assault when attacking another ego’s mind in psi combat.',
+    what_it_is: 'Psi Assault is the skill of damaging another ego\'s mind. It can only be purchased by characters with the Psi trait',
+    when_you_use_it: 'Use Psi Assault when attacking another ego\'s mind in psi combat.',
     specialization: 'By sleight',
   },
   {
@@ -426,7 +426,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'INT',
     description: 'Active, Technical',
     what_it_is: 'Psychosurgery is the use of machine-aided psychological techniques to repair, damage, or manipulate the psyche.',
-    when_you_use_it: 'Use Psychosurgery to attempt the tricky process of editing someone’s mind. Psychosurgery can be used beneficially to help patients who remember their deaths, feel disconnected after remorphing, or have experienced other sorts of mental traumas. This skill may also be used to interrogate, torture, or otherwise mess with captive minds in a VR environment.',
+    when_you_use_it: 'Use Psychosurgery to attempt the tricky process of editing someone\'s mind. Psychosurgery can be used beneficially to help patients who remember their deaths, feel disconnected after remorphing, or have experienced other sorts of mental traumas. This skill may also be used to interrogate, torture, or otherwise mess with captive minds in a VR environment.',
     specialization: 'Memory Manipulation, Personality Editing, Psychotherapy',
   },
   {
@@ -480,7 +480,7 @@ const SKILLS_DATA = [
     linkedAptitude: 'SOM',
     description: 'Active, Physical',
     what_it_is: 'Swimming is the art of moving and not drowning within fluids. It includes floating, surface swimming, snorkeling, diving, and related equipment use.',
-    when_you_use_it: 'Use Swimming whenever you need to move and survive in water or another liquid environment. Swimming in a non-threatening environment can be handled as a Simple Success Test. Swimming over a long distance could be handled as a Task Action. Diving off a cliff into a lake, preventing yourself from being swept away in a raging river current, or making sure you’ve set a proper gas mix for a deep-sea dive, among other things, requires a Success Test.',
+    when_you_use_it: 'Use Swimming whenever you need to move and survive in water or another liquid environment. Swimming in a non-threatening environment can be handled as a Simple Success Test. Swimming over a long distance could be handled as a Task Action. Diving off a cliff into a lake, preventing yourself from being swept away in a raging river current, or making sure you\'ve set a proper gas mix for a deep-sea dive, among other things, requires a Success Test.',
     specialization: 'Diving, Freestyle, Underwater Diving',
   },
   {
@@ -506,7 +506,7 @@ const SKILLS_DATA = [
     name: 'Exotic Language: [Field]',
     linkedAptitude: 'INT',
     description: 'Field, Knowledge',
-    what_it_is: 'Intercepting a message only helps if the interceptor can understand it. Seamless translation software is available for most human languages, but there are many languages that died out before anyone bothered writing a translator. In addition to unusual spoken languages (e.g., extinct Native American languages), a number of rare sign languages existed among isolated populations who either had large numbers of deaf people (e.g., Martha’s Vineyard, Al-Sayyid Bedouins) or taboos against speaking (e.g., the Australian Warlpiri, Trappist monks). These languages, or variations on them, are sometimes used by covert groups concerned about communication security. Linguistic isolates are favored, as these leave fewer clues for would-be translators. The whistles, clicks, and ultrasonic burst-pulses of the neo-cetacean language also fall in this category, primarily because the ability to speak and perceive it is beyond the physiology of standard transhumans. Transhumans with enhanced hearing can hear neo-cetacean, and those with echolocation implants can “speak” it, albeit poorly. Neo-cetacean is adapted for underwater use and does not work at any significant range out of water.',
+    what_it_is: 'Intercepting a message only helps if the interceptor can understand it. Seamless translation software is available for most human languages, but there are many languages that died out before anyone bothered writing a translator. In addition to unusual spoken languages (e.g., extinct Native American languages), a number of rare sign languages existed among isolated populations who either had large numbers of deaf people (e.g., Martha\'s Vineyard, Al-Sayyid Bedouins) or taboos against speaking (e.g., the Australian Warlpiri, Trappist monks). These languages, or variations on them, are sometimes used by covert groups concerned about communication security. Linguistic isolates are favored, as these leave fewer clues for would-be translators. The whistles, clicks, and ultrasonic burst-pulses of the neo-cetacean language also fall in this category, primarily because the ability to speak and perceive it is beyond the physiology of standard transhumans. Transhumans with enhanced hearing can hear neo-cetacean, and those with echolocation implants can “speak” it, albeit poorly. Neo-cetacean is adapted for underwater use and does not work at any significant range out of water.',
     when_you_use_it: 'Use the Language skill whenever you want to speak, understand, or read something in a language at which you are skilled. Most speaking and reading comprehension tests can be considered Simple Success Tests if your skill is over 50, unless the gamemaster rules the subject is sufficiently complex that a non-native speaker would have trouble understanding it.',
     sample: 'Neo-cetacean, !Kung, Al-Sayyid Bedouin Sign, Arogonese, Chong, Karon, Mayan Sign, Michif, Warlpiri Sign',
     specialization: 'As appropriate to the field, representing dialects, technical jargon, and subcultural slang.',
