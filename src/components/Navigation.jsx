@@ -6,6 +6,7 @@ export default function Navigation() {
   const location = useLocation()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [openDropdown, setOpenDropdown] = useState(null)
+  const [openSubDropdown, setOpenSubDropdown] = useState(null)
 
   const isActive = (path) => {
     return location.pathname === path ? 'active' : ''
@@ -14,10 +15,15 @@ export default function Navigation() {
   const handleLinkClick = () => {
     setMobileMenuOpen(false)
     setOpenDropdown(null)
+    setOpenSubDropdown(null)
   }
 
   const toggleDropdown = (dropdownName) => {
     setOpenDropdown(openDropdown === dropdownName ? null : dropdownName)
+  }
+
+  const toggleSubDropdown = (subName) => {
+    setOpenSubDropdown(openSubDropdown === subName ? null : subName)
   }
 
   return (
@@ -53,6 +59,22 @@ export default function Navigation() {
               <Link to="/morphs" onClick={handleLinkClick}>Morphs</Link>
               <Link to="/traits" onClick={handleLinkClick}>Traits</Link>
               <Link to="/skills" onClick={handleLinkClick}>Skills</Link>
+              
+              <div
+                className={`dropdown-item ${openSubDropdown === 'psi' ? 'active' : ''}`}
+                onClick={(e) => { e.stopPropagation(); toggleSubDropdown('psi') }}
+                role="button"
+                tabIndex={0}
+              >
+                <span className="dropdown-toggle">Psi ▸</span>
+                <div className={`dropdown-submenu ${openSubDropdown === 'psi' ? 'open' : 'hidden'}`}>
+                  <Link to="/psi" onClick={handleLinkClick}>Overview</Link>
+                  <Link to="/psi/using" onClick={handleLinkClick}>Using Psi</Link>
+                  <Link to="/psi/sleights" onClick={handleLinkClick}>Psi Sleights</Link>
+                </div>
+              </div>
+
+              <Link to="/gear" onClick={handleLinkClick}>Gear</Link>
             </div>
           </li>
           
@@ -63,8 +85,6 @@ export default function Navigation() {
             <span className="dropdown-toggle">Gameplay</span>
             <div className="dropdown-menu dropdown-menu-right">
               <Link to="/actions" onClick={handleLinkClick}>Actions & Combat</Link>
-              <Link to="/psi" onClick={handleLinkClick}>Psi</Link>
-              <Link to="/gear" onClick={handleLinkClick}>Gear</Link>
               <Link to="/mesh" onClick={handleLinkClick}>The Mesh</Link>
             </div>
           </li>
