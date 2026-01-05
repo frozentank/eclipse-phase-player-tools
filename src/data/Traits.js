@@ -309,7 +309,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 29,
+    id: 30,
     name: 'Tough',
     type: 'Positive Morph',
     description: 'This morph is resilient than others of its type and can take more physical abuse',
@@ -333,7 +333,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 30,
+    id: 31,
     name: 'Zoosemiotics',
     type: 'Positive Ego/Morph',
     cost: 5,
@@ -341,7 +341,7 @@ const TRAITS_DATA = [
     details: 'A character with this trait and the Psi trait does not suffer a modifier when using psi sleights on non-sapient or partly sapient animal species.',
   },
   {
-    id: 31,
+    id: 32,
     name: 'Addiction',
     type: 'Negative Ego/Morph',
     description: 'Addiction',
@@ -368,7 +368,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 32,
+    id: 33,
     name: 'Aged',
     type: 'Negative Morph',
     cost: 10,
@@ -376,7 +376,7 @@ const TRAITS_DATA = [
     details: 'The morph is physically aged and has not been rejuvenated. Old morphs are increasingly uncommon, though some people adopt them hoping to gain an air of seniority and respectability. Reduce the character\'s aptitude maximums by 5, and apply a –10 modifier on all physical actions. This trait may only be applied to flat and splicer morphs.',
   },
   {
-    id: 33,
+    id: 34,
     name: 'Bad Luck',
     type: 'Negative Ego',
     cost: 10,
@@ -384,7 +384,7 @@ const TRAITS_DATA = [
     details: 'Due to some inexplicable cosmic coincidence, things seem to go wrong around the character. The gamemaster is given a pool of Moxie points equal to the character\'s Moxie stat, which also refreshes at the same rate as the character\'s Moxie. Only the gamemaster may utilize this Moxie, however, and the purpose is to use it against the character. In other words, the gamemaster can use this bad Moxie to cause the character to automatically fail, flip-flop a roll, and so on. To reflect the black cloud that follows the character, the gamemaster can even use this bad Moxie against the character\'s friends and allies, when they are doing something with or related to the character, though this should be used sparingly. Gamemasters who might be reluctant to sabotage the character should remember that the player asked for it by purchasing this trait.',
   },
   {
-    id: 34,
+    id: 35,
     name: 'Blacklisted',
     type: 'Negative Ego',
     description: 'The character has managed to get themselves blacklisted in certain circles',
@@ -403,7 +403,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 35,
+    id: 36,
     name: 'Black Mark',
     type: 'Negative Ego',
     description: 'At some point in the character\'s past, they managed to do something that earned a black mark on their reputation',
@@ -427,7 +427,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 36,
+    id: 37,
     name: 'Combat Paralysis',
     type: 'Negative Ego',
     cost: 20,
@@ -435,7 +435,7 @@ const TRAITS_DATA = [
     details: 'The character has an unfortunate habit of freezing in combat or stressful situations, like a deer caught in headlights. Anytime violence breaks out around the character or they are surprised, the character must make a Willpower Test in order to act or respond in any way. If they fail the test, they lose their action and simply stand there, remaining incapable of reacting to the situation.',
   },
   {
-    id: 37,
+    id: 38,
     name: 'Edited Memories',
     type: 'Negative Ego',
     cost: 10,
@@ -443,7 +443,7 @@ const TRAITS_DATA = [
     details: 'At some point in the character\'s past, the character had certain memories strategically removed or otherwise lost to them. This may have been done to intentionally forget an unpleasant or shameful experience or to make a break with the past. The memory may also have been lost by an unexpected death (with no recent backup), or it may have been erased against the character\'s will. Whatever the case, the memory should bear some importance, and there should exist either evidence of what happened or NPCs who know the full story. This is a tool the gamemaster can use to haunt the character at some future point with ghosts from their past.',
   },
   {
-    id: 38,
+    id: 39,
     name: 'Enemy',
     type: 'Negative Ego',
     cost: 10,
@@ -451,7 +451,7 @@ const TRAITS_DATA = [
     details: 'At some point in their past, the character made an enemy for life who continues to haunt them. The gamemaster and player should work out the details on this enmity, and the gamemaster should use the enemy as an occasional threat, surprise, and hindrance.',
   },
   {
-    id: 39,
+    id: 40,
     name: 'Feeble',
     type: 'Negative Ego',
     cost: 20,
@@ -459,7 +459,7 @@ const TRAITS_DATA = [
     details: 'The character is particularly weak with one aptitude. That aptitude must be purchased at a rating lower than 5 and may never be upgraded during char- acter advancement. The aptitude maximum is 10, no matter what morph the character is wearing.',
   },
   {
-    id: 40,
+    id: 41,
     name: 'Frail',
     type: 'Negative Morph',
     description: 'This morph is not as resilient as others of its type',
@@ -478,7 +478,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 41,
+    id: 42,
     name: 'Genetic Defect',
     type: 'Negative Morph',
     description: 'The morph is not genefixed, and in fact suffers from a genetic disorder',
@@ -497,7 +497,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 42,
+    id: 43,
     name: 'Identity Crisis',
     type: 'Negative Ego',
     cost: 10,
@@ -505,7 +505,7 @@ const TRAITS_DATA = [
     details: 'The character\'s ego has trouble adapting itself to the changed look of a new morph—they are stuck with the mental image of their original body and simply do not grow accustomed to their new face(s). As a result, the character has difficulty identifying themselves in the mirror, photos, surveillance feeds, etc. They frequently forget the look and shape of their current morph, acting inappropriately, describing themselves by their original body, forgetting to duck when walking through doorways, etc. This is primarily a roleplaying trait, but the gamemaster may apply appropriate modifiers (usually –10) to tests affected by this inability to adapt.',
   },
   {
-    id: 43,
+    id: 44,
     name: 'Illiterate',
     type: 'Negative Ego',
     cost: 10,
@@ -513,7 +513,7 @@ const TRAITS_DATA = [
     details: 'The character knows how to speak but has difficulty reading or writing. Due to the entoptic-saturated and icon-driven nature of transhuman society, they are able to get by quite comfortably with this handi-cap. Reduce the character\'s Language skills by half (round down) whenever reading or writing.',
   },
   {
-    id: 44,
+    id: 45,
     name: 'Immortality Blues',
     type: 'Negative Ego',
     cost: 10,
@@ -521,7 +521,7 @@ const TRAITS_DATA = [
     details: 'The character has lived so long—over 100 years— they\'re bored with life and now have difficulty motivating themselves. They were old when longevity treatments first became available, survived the Fall, and continue to soldier onward—though they find it increasingly harder to care, take interest in things around them, or fear final death. The character only receives half the Moxie and Rez Points award for completing motivational goals. This trait may not be purchased by characters with the infolife, uplift, or lost backgrounds.',
   },
   {
-    id: 45,
+    id: 46,
     name: 'Implant Rejection',
     type: 'Negative Morph',
     description: 'This morph does not accept implants well',
@@ -540,7 +540,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 46,
+    id: 47,
     name: 'Incompetent',
     type: 'Negative Ego',
     cost: 10,
@@ -548,7 +548,7 @@ const TRAITS_DATA = [
     details: 'The character is completely incapable of performing a particular chosen active skill, no matter any training they may receive. They may not buy this skill during character creation or later advancement, and the modifier for defaulting to the linked aptitude of this particular skill is –10. This may not be used for exotic weapon skills, and should be used for a skill that could be of use to the character.',
   },
   {
-    id: 47,
+    id: 48,
     name: 'Lemon',
     type: 'Negative Morph',
     cost: 10,
@@ -556,7 +556,7 @@ const TRAITS_DATA = [
     details: 'This trait is only available for synthetic morphs. This particular morph has some unfixable flaws. Once per game session (preferably at a time that will maximize drama or hilarity), the gamemaster can call for the character to make a MOX × 10 Test (using their current Moxie score). If the character fails, the morph immediately suffers 1 wound resulting from some mechanical failure, electrical glitch, or other breakdown. This wound may be repaired as normal.',
   },
   {
-    id: 48,
+    id: 49,
     name: 'Low Pain Tolerance',
     type: 'Negative Ego/Morph',
     cost: 20,
@@ -564,7 +564,7 @@ const TRAITS_DATA = [
     details: 'Pain is the character\'s enemy. The character has a very low threshold for pain tolerance and is more severely impaired when suffering. Increase the modifier for each wound take by an additional –10 (so the character suffers –20 with one wound, –40 with another, and –60 with a third). Additionally, the character suffers a –30 modifier on any test involving pain resistance. The morph version of this trait is only available for biomorphs.',
   },
   {
-    id: 49,
+    id: 50,
     name: 'Mental Disorder',
     type: 'Negative Ego',
     cost: 10,
@@ -572,7 +572,7 @@ const TRAITS_DATA = [
     details: 'You have a psychological disorder from a previous traumatic experience in your life. Choose one of the disorders',
   },
   {
-    id: 50,
+    id: 51,
     name: 'Mild Alergy',
     type: 'Negative Morph',
     cost: 5,
@@ -580,7 +580,7 @@ const TRAITS_DATA = [
     details: 'The morph is allergic to a specific chosen allergen (dust, dander, plant pollen, certain chemicals) and suffers mild discomfort when exposed to it (eye irritation, sneezing, difficult breathing). Apply a –10 modifier to all tests while the character remains exposed. This trait is only available for biomorphs.',
   },
   {
-    id: 51,
+    id: 52,
     name: 'Modified Behavior',
     type: 'Negative Ego',
     description: 'The character has been conditioned via time-accelerated behavioral control psychosurgery',
@@ -604,7 +604,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 52,
+    id: 53,
     name: 'Morphing Disorder',
     type: 'Negative Ego',
     description: 'Adapting to new morphs is particularly challenging for this character',
@@ -628,7 +628,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 53,
+    id: 54,
     name: 'Neural Damage',
     type: 'Negative Ego',
     cost: 10,
@@ -636,7 +636,7 @@ const TRAITS_DATA = [
     details: 'The character has suffered some type of neurological damage that simply cannot be cured. The affliction is now part of the character\'s ego and remains with them even when remorphing. This damage may have been inherited, it may have resulted from a poorly designed morph or implant, or it may have been inflicted by one of the TITAN nanoviruses that targeted neural systems during the Fall. The gamemaster and player should agree on a specific disorder appropriate to their game.',
   },
   {
-    id: 54,
+    id: 55,
     name: 'No Cortical Stack',
     type: 'Negative Morph',
     cost: 10,
@@ -644,7 +644,7 @@ const TRAITS_DATA = [
     details: 'The morph lacks the cortical stack that is common to morphs of its type. This means the character cannot be resleeved from the cortical stack if the character dies, they can only be resleeved from a standard backup. This trait is not available for flats.',
   },
   {
-    id: 55,
+    id: 56,
     name: 'Oblivious',
     type: 'Negative Ego',
     cost: 10,
@@ -652,7 +652,7 @@ const TRAITS_DATA = [
     details: 'The character is particularly oblivious to events around them or anything other than what their attention is focused on. They suffer a –10 modifier to Surprise Tests and their modifier for being Distracted is –30 rather than the usual –20',
   },
   {
-    id: 56,
+    id: 57,
     name: 'On the Run',
     type: 'Negative Ego',
     cost: 10,
@@ -660,7 +660,7 @@ const TRAITS_DATA = [
     details: 'The character is wanted by the authorities of a particular habitat/station or faction, who continue to actively search for the character. They either committed a crime or somehow displeased someone in power. The character deals with that faction in question at their own risk and may occasionally be forced to deal with bounty hunters.',
   },
   {
-    id: 57,
+    id: 58,
     name: 'Psi Vulnerability',
     type: 'Negative Ego/Morph',
     cost: 10,
@@ -668,7 +668,7 @@ const TRAITS_DATA = [
     details: 'Something about the character\'s mind makes them particularly vulnerable to psi attack. They suffer a –10 modifier when resisting such attacks. The morph version of this trait may only be taken by biomorphs.',
   },
   {
-    id: 58,
+    id: 59,
     name: 'Real World Naivete',
     type: 'Negative Ego',
     cost: 10,
@@ -676,7 +676,7 @@ const TRAITS_DATA = [
     details: 'Due to their background, the character has very limited personal experience with the real (physical) world—or they have spent so much time in simulspace that their functioning in real life is impaired. They lack an understanding of many physical properties, social cues, and other factors that people with standard human upbringings take for granted. This lack of common sense may lead the character to misunderstand how a device works or to misinterpret someone\'s body language. Once per game session, the gamemaster may intentionally mislead the character when giving them a description about some thing or some social interaction. This falsehood represents the character\'s misunderstanding of the situation and should be roleplayed appropriately, even if the player realizes the character\'s mistake. This trait should only be available to characters with the infolife or re-instantiated backgrounds, though the gamemaster may allow it for characters who have extensive virtual reality/XP use in their personal histories.',
   },
   {
-    id: 59,
+    id: 60,
     name: 'Severe Allergy',
     type: 'Negative Morph',
     description: 'The morph\'s biochemistry suffers a severe allergic reaction when it comes into contact with a specific allergen',
@@ -695,7 +695,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 60,
+    id: 61,
     name: 'Slow Learner',
     type: 'Negative Ego',
     cost: 10,
@@ -703,7 +703,7 @@ const TRAITS_DATA = [
     details: 'New skills are not easy for this character to pick up. The character takes twice as long as normal to improve skills or learn new ones',
   },
   {
-    id: 61,
+    id: 62,
     name: 'Social Stigma',
     type: 'Negative Ego/Morph',
     cost: 10,
@@ -711,7 +711,7 @@ const TRAITS_DATA = [
     details: 'An unfortunate aspect of the character\'s background means that they suffer from a stigma in certain social situations. They may be sleeved in a morph viewed with repugnance, be a survivor of the infamous Lost generation, or may be an AGI in a post-Fall society plagued by fear of artificial intelligence. In social situations where the character\'s nature is known to someone who view that nature with distaste, fear, or repugnance, they suffer a –10 to –30 modifier (gamemaster\'s discretion) to social skill tests',
   },
   {
-    id: 62,
+    id: 63,
     name: 'Timid',
     type: 'Negative Ego',
     cost: 10,
@@ -719,7 +719,7 @@ const TRAITS_DATA = [
     details: 'This character frightens easily. They suffer a –10 modifier when resisting fear or intimidation.',
   },
   {
-    id: 63,
+    id: 64,
     name: 'Unattractive',
     type: 'Negative Morph',
     description: 'This morph is conspicuously ugly',
@@ -743,7 +743,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 64,
+    id: 65,
     name: 'Uncanny Valley',
     type: 'Negative Morph',
     cost: 10,
@@ -751,7 +751,7 @@ const TRAITS_DATA = [
     details: 'There is a point where synthetic human looks become uncannily realistic and human-seeming, but they remain just different enough that their looks seem creepy or even repulsive—a phenomenon called the “uncanny valley.” Morphs whose looks fall into this range suffer a –10 modifier on social skill tests when dealing with humans. This modifier does not apply to interactions with xenomorphs or those with the infolife or uplift backgrounds.',
   },
   {
-    id: 65,
+    id: 66,
     name: 'Unfit',
     type: 'Negative Morph',
     description: 'The morph is either not optimized for health and/or just in bad shape',
@@ -770,7 +770,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 66,
+    id: 67,
     name: 'VR Vertigo',
     type: 'Negative Ego/Morph',
     cost: 10,
@@ -778,7 +778,7 @@ const TRAITS_DATA = [
     details: 'The character experiences intense vertigo and nausea when interfacing with any type of virtual reality, XP, or simulspace. Augmented reality has no effect, but VR inflicts a –30 modifier to all of the character\'s actions. Prolonged use of VR (gamemaster\'s discretion) may actually incapacitate the character should they fail a WIL × 2 Test.',
   },
   {
-    id: 67,
+    id: 68,
     name: 'Weak Immune System',
     type: 'Negative Morph',
     cost: 10,
@@ -786,7 +786,7 @@ const TRAITS_DATA = [
     details: 'The morph\'s immune system is susceptible to diseases, drugs, and toxins. At Level 1, apply a –10 modifier whenever making a test to resist infection or the effects of a toxin or drug. At Level 2, increase this modifier to –20. This trait is only available to biomorphs.',
   },
   {
-    id: 68,
+    id: 69,
     name: 'Zero-G Nausea',
     type: 'Negative Morph',
     cost: 10,
@@ -794,7 +794,7 @@ const TRAITS_DATA = [
     details: 'This morph suffers from space sickness and does not fair well in zero gravity. The character suffers a –10 modifier in any microgravity climate. Additionally, whenever the character is first getting acclimated or anytime they must endure excessive movement in microgravity, they must make a WIL Test or spend 1 hour incapacitated by nausea per 10 points of MoF.',
   },
   {
-    id: 69,
+    id: 70,
     name: 'Home Turf',
     type: 'Positive Ego',
     cost: 10,
@@ -802,7 +802,7 @@ const TRAITS_DATA = [
     details: 'This character knows a particular habitat like the back of their hand, paw, or tentacle, having grown up there or spent years familiarizing themselves. They receive an extra point of Moxie that may only be used for tests that apply to that habitat, such as navigating the best route, bypassing airlock controls, or hacking its infrastructure.',
   },
   {
-    id: 70,
+    id: 71,
     name: 'Information Control',
     type: 'Positive Ego',
     cost: 10,
@@ -810,7 +810,7 @@ const TRAITS_DATA = [
     details: 'This character has a knack for diligence and caution in their daily living, online, and social networking interactions, reducing the amount of extraneous or sensitive information about themselves that leaks out in the public eye. Apply a -10 modifier to any Research Tests to gather information on the character or track them online and any Networking Tests to ascertain the character\'s networking interactions.',
   },
   {
-    id: 71,
+    id: 72,
     name: 'Social Butterfly',
     type: 'Positive Ego',
     cost: 15,
@@ -818,7 +818,7 @@ const TRAITS_DATA = [
     details: 'This character is a promiscuous abuser of online social networks. Because they go out of their way to make new connections and interact with people, they find it slightly easier to get what they need. Apply a +10 modifier to Networking Tests.',
   },
   {
-    id: 72,
+    id: 73,
     name: 'You\'re that Guy!',
     type: 'Positive Ego',
     cost: 10,
@@ -826,7 +826,7 @@ const TRAITS_DATA = [
     details: 'Sometime in the past, this character got their 5 minutes of mesh fame in a funny viral meme that swept the solar system. To this day, strangers who access the character\'s social profile are likely to connect them to that meme. Though tedious for the character, there is a positive side effect, as these strangers remember the meme fondly and are more likely to help the character out. Once per game session, the gamemaster may decide that a stranger with whom the character is interacting and who has access to the character\'s online public profile recognizes the character. The character receives a one-time +20 bonus to any social skill or Networking Test with that stranger.',
   },
   {
-    id: 73,
+    id: 74,
     name: 'Data Footprint',
     type: 'Negative Ego/Morph',
     cost: 10,
@@ -834,7 +834,7 @@ const TRAITS_DATA = [
     details: 'The character is particularly sloppy about keeping a lid on their daily living, online, and social networking interactions, leaving a larger data footprint than usual in the public eye. Apply a +10 modifier to any Research Tests to gather information on the character or track them online and any Networking Tests to ascertain the character\'s networking interactions.',
   },
   {
-    id: 74,
+    id: 75,
     name: 'Impaired Balance',
     type: 'Negative Ego',
     description: 'This trait is only available to neo-pigs',
@@ -858,7 +858,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 75,
+    id: 76,
     name: 'Impaired Hearing',
     type: 'Negative Morph',
     cost: 5,
@@ -866,7 +866,7 @@ const TRAITS_DATA = [
     details: 'This trait is only available to octomorphs. This morph lacks the transgenic hearing modifications of modern octomorph designs. The morph can only hear low sounds in the 400–1,000 Hertz range (as opposedto the 20–20,000 Hertz range enjoyed by most transhumans) and hears poorly when not underwater. Apply a -30 modifier to any hearing-based Perception Tests. At the gamemaster\'s discretion, certain medium and high-frequency sounds may be inaudible as they are outside the morph\'s range. This lack of hearing may be compensated for with audio implants or microphones and mesh inserts.',
   },
   {
-    id: 76,
+    id: 77,
     name: 'Impaired Linguistics',
     type: 'Negative Ego',
     cost: 10,
@@ -886,7 +886,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 77,
+    id: 78,
     name: 'Shut-in',
     type: 'Negative Ego',
     cost: 15,
@@ -894,7 +894,7 @@ const TRAITS_DATA = [
     details: 'This character is a social hermit or went through a period of self-imposed isolation, limiting the amount of interactions they have via online social networks. Because the character is out of touch, their ability to network with others is impaired. Apply a -10 modifier to Networking Tests.',
   },
   {
-    id: 78,
+    id: 79,
     name: 'Stalker',
     type: 'Negative Ego',
     cost: 10,
@@ -902,7 +902,7 @@ const TRAITS_DATA = [
     details: 'A voyeur obsessively stalks this character\'s actions online. The gamemaster and player should work out details of the stalker together, and the gamemaster should use the stalker as a plot element to create occasional nuisances and challenges. The stalker could, for example, be a fan who over-appreciates the character\'s work and pesters them or a unknown entity that follows the character\'s actions religiously and posts the details to an online log.',
   },
   {
-    id: 79,
+    id: 80,
     name: 'Stolen Identity',
     type: 'Negative Ego',
     cost: 10,
@@ -910,7 +910,7 @@ const TRAITS_DATA = [
     details: 'Someone stole this character\'s identity and took advantage of their name, reputation, background—the works. Though this happened in the past, the situation was never fully resolved and the character is plagued with collateral difficulties from the theft. The gamemaster and player should work out details of the incident together, and the gamemaster should use this to occasionally hinder the character or create complications. For example, the character may have to deal with criminal charges against them in one habitat, angry thugs looking for payback on another, and so on.',
   },
   {
-    id: 80,
+    id: 81,
     name: 'Wait that was you?',
     type: 'Negative Ego',
     cost: 10,
@@ -918,7 +918,7 @@ const TRAITS_DATA = [
     details: 'This character was the unfortunate star of a viral meme that swept through the solar system\'s mesh networks—provoking anger, disgust, or mockery towards them. To this day, strangers who access the character\'s social profile are likely to connect them to that meme, coloring their perception of the character. Once per game session, the gamemaster may decide that a stranger with whom the character is interacting and who has access to the character\'s online public profile makes the connection. The character suffers a one-time -20 modifier to any social skill or Networking Test with that stranger.',
   },
   {
-    id: 81,
+    id: 82,
     name: 'Weak Grip',
     type: 'Negative Morph',
     cost: 10,
@@ -926,7 +926,7 @@ const TRAITS_DATA = [
     details: 'This trait is only available to neo-avian and neo-pig morphs. The physiology of this particular morph is flawed in that the opposable digits on the hands are not fully formed or operational. A character in this morph loses their damage bonus in melee attacks and suffers a -10 modifier on subdual tests and any other tests involving their grip, hand strength, or ability to hold on.',
   },
   {
-    id: 82,
+    id: 83,
     name: 'Civilian Analyst',
     type: 'Positive Ego',
     description: 'The character is a civilian analyst in a large intelligence agency',
@@ -945,7 +945,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 83,
+    id: 84,
     name: 'Military Intelligence',
     type: 'Positive Ego',
     cost: 10,
@@ -953,7 +953,7 @@ const TRAITS_DATA = [
     details: 'This trait may only be taken by characters with the Military Rank trait. Since all members of JSFI are commissioned officers, Jovian characters must have Military Rank of at least Level 2. The character is posted to their military\'s intelligence service. This makes it possible for the character to use reputation to garner classified information at one Favor level lower than normal, but it also immerses the character in the spook world, limiting their movements and greatly complicating their collaboration with Firewall. Players taking this trait should consult with the gamemaster as to how their character is able to operate as part of Firewall at all with other spies looking over their shoulder.',
   },
   {
-    id: 84,
+    id: 85,
     name: 'Military Rank',
     type: 'Positive Ego',
     description: 'The character is an officer',
@@ -977,7 +977,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 85,
+    id: 86,
     name: 'Police Officer',
     type: 'Positive Ego',
     description: 'The character is a mid-ranking cop—a sergeant or detective',
@@ -996,7 +996,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 86,
+    id: 87,
     name: 'Professional Courtesy',
     type: 'Positive Ego',
     cost: 5,
@@ -1004,7 +1004,7 @@ const TRAITS_DATA = [
     details: 'Although higher-ups in your organization probably aren\'t thrilled about it, you\'ve run into the operatives and field agents of another faction or conspiracy often enough that you\'ve earned some leeway with them. Choose a group engaged in covert ops, intelligence work, or paramilitary actions: when encountering agents of that group in the context of a mission, you gain a +10 bonus on all social tests against them, as they treat you with grudging respect—or at least more tolerance than they otherwise would for a member of your organization. Discuss with your gamemaster to detail what your character did to gain the respect of this other group. This trait does not guarantee safety or cooperation between you and members of the chosen organization, only some additional consideration between professionals. Depending on the particulars of an encounter, it may provide some shared information, a moment of détente to face a common foe, or the chance to determine how to stay out of each others\' way.',
   },
   {
-    id: 87,
+    id: 88,
     name: 'Special Agent',
     type: 'Positive Ego',
     description: 'The character is a field agent of the Titanian Security Police',
@@ -1023,7 +1023,7 @@ const TRAITS_DATA = [
     ],
   },
   {
-    id: 88,
+    id: 89,
     name: 'Unique Contact',
     type: 'Positive Ego',
     cost: 10,
@@ -1031,7 +1031,7 @@ const TRAITS_DATA = [
     details: 'You have a personal tie to an individual with unique skills or resources of particular value to your clandestine activities. This connection may be be based on blood or family ties, shared history, or some other situation that permanently linked you together. Though the contact does not owe you, they are generally inclined to help you, presuming it does not greatly inconvenience them or put them at great risk. This contact could be a weapons dealer, a high-ranking government official, a major hypercorp exec, a scientist at the top of their field, a media icon, a deep-cover mole, a police lieutenant, or even a field agent from a rival group. Apply a +10 modifier on Networking and Social Skill Tests with this specific NPC.',
   },
   {
-    id: 89,
+    id: 90,
     name: 'Coronal Adaptation',
     type: 'Positive Morph',
     cost: 30,
@@ -1039,7 +1039,7 @@ const TRAITS_DATA = [
     details: 'For biomorphs, this radical alteration enables the subject\'s metabolism to live off solar energy, using medichines to repair radiation damage. This same metabolism also generates powerful electro-magnetic fields that protect the character from the intense temperatures and radiation in the coronal environment and even enable the char- acter to sail the solar winds. Morphs with this adaptation cannot survive outside the coronal environment (or similar environments) for more than a few days without extensive medical support. Coronal adaptation can only be applied to morphs that also have medichines (p. 308, EP). For synthmorphs, this adaptation restructures the morph\'s composition with heat-resistant materials capable of surviving superheated plasma and shielded against radiation. The shell is also equipped with refractive metamaterials and a perfectly mirrored surface, giving it an albedo of nearly one. The reflective surface protects the wearer from well over 99% of the radiant energy that falls upon it, but a powerful cooling system and extensive radiation shielding are required for the minuscule percentage of energy that slips through. Generated electromagnetic fields also protect the morph and enable propulsion along solar magnetic lines. This adaptation provides a +10 modifier to the biomorph\'s Free Fall skill tests in the presence of strong electromagnetic fields. It also provides 10 points of Energy armor against heat and electromagnetic-based attacks (such as lasers, microwaves, and plasma weapons, but not explosions).',
   },
   {
-    id: 90,
+    id: 91,
     name: 'High-Temperature Operation',
     type: 'Positive Ego/Morph',
     cost: 10,
@@ -1047,7 +1047,7 @@ const TRAITS_DATA = [
     details: 'This morph has been designed to operate only in high-temperature environments, enabling them to withstand temperatures up to 1,000 C. This morph loses 1 point of COO for every 5 minutes it spends at temperatures lower than 250 C, and 1 point of COO for every minute that it spends below 150 C. When its COO equals zero the morph becomes completely immobile. This same penalty is applied to all COO-based skill rolls. The morph\'s cyberbrain and mesh access still work in these circumstances, but the morph cannot physically move under its own power. Even if placed back in higher temperatures, if it was previously reduced to total immobility, the morph halves its COO and SOM (round down) until it has been serviced. This trait may only be applied to synthmorphs. It provides 5 points of Energy armor against heat-based attacks (such as lasers, microwaves, and plasma weapons, but not explosions).',
   },
   {
-    id: 91,
+    id: 92,
     name: 'Fast Metabolism',
     type: 'Negative Morph',
     cost: 5,
@@ -1055,7 +1055,7 @@ const TRAITS_DATA = [
     details: 'The morph\'s metabolism runs hot, requiring the character to eat two to three times as much food as a normal character with similar body mass. Food tends to be plentiful and cheap in most transhuman settlements, but this trait can pose a problem in remote areas or when visiting settlements with limited resources. The character must plan ahead and pack enough food on expeditions. If the character is eating off their rep, they must expend two trivial favors each day for the additional food they require. If the character is unable to obtain enough food, they lose SOM at the rate of one point per day until they resume their usual caloric intake. This trait is only available for biomorphs (including uplifts and pods).',
   },
   {
-    id: 92,
+    id: 93,
     name: 'Planned Obsolescence',
     type: 'Negative Morph',
     cost: 5,
@@ -1063,7 +1063,7 @@ const TRAITS_DATA = [
     details: 'The morph is a hypercorp model that requires periodic GSP (Genetic Service Pack) therapy. For every three months of game time, the character must spend credits equal to 10% the cost of the morph on GSP “upgrades.” If they fail to do so, the morph\'s SOM is reduced by 5 until the character gets their GSP therapy. These penalties are cumulative over time (at 6 months, 9 months, etc.), but getting GSP therapy once removes all penalties. The character suffers no SOM loss if the majority of a given 3 month period was spent in hibernation, in a healing vat, or in some other form of metabolic suspension. The SOM reduction is due to low level neural degradation, minor tumors, joint pain, and other problems that crop up and express later as hypercorp genetic designers working on tight budgets and tighter deadlines race to release morph models with extra value-added features. While theoretically over many years this trait would lead to the early death of the morph, in game terms the morph stops accruing penalties when its SOM is reduced to 5. The character regains their normal SOM score if they resleeve. This trait is only available to biomorphs (including uplifts and pods)',
   },
   {
-    id: 93,
+    id: 94,
     name: 'Alien Biochemistry',
     type: 'Morph',
     cost: 10,

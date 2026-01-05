@@ -50,36 +50,40 @@ export default function CharacterCreation() {
                 <li>Morphs must be purchased with CP</li>
                 <li>Other gear may be purchased with credits using these values:
                     <table>
-                        <tr>
-                            <th>Category</th>
-                            <th>Range</th>
-                            <th>Average</th>
-                        </tr>
-                        <tr>
-                            <td>Trivial</td>
-                            <td>1-99</td>
-                            <td>50</td>
-                        </tr>
-                        <tr>
-                            <td>Low</td>
-                            <td>100-499</td>
-                            <td>250</td>
-                        </tr>
-                        <tr>
-                            <td>Moderate</td>
-                            <td>500-1,499</td>
-                            <td>1,000</td>
-                        </tr>
-                        <tr>
-                            <td>High</td>
-                            <td>1,500-9,999</td>
-                            <td>5,000</td>
-                        </tr>
-                        <tr>
-                            <td>Expensive</td>
-                            <td>10,000+</td>
-                            <td>20,000</td>
-                        </tr>
+                        <thead>
+                            <tr>
+                              <th>Category</th>
+                              <th>Range</th>
+                              <th>Average</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                              <td>Trivial</td>
+                              <td>1-99</td>
+                              <td>50</td>
+                          </tr>
+                          <tr>
+                              <td>Low</td>
+                              <td>100-499</td>
+                              <td>250</td>
+                          </tr>
+                          <tr>
+                              <td>Moderate</td>
+                              <td>500-1,499</td>
+                              <td>1,000</td>
+                          </tr>
+                          <tr>
+                              <td>High</td>
+                              <td>1,500-9,999</td>
+                              <td>5,000</td>
+                          </tr>
+                          <tr>
+                              <td>Expensive</td>
+                              <td>10,000+</td>
+                              <td>20,000</td>
+                          </tr>
+                        </tbody>
                     </table>
                 </li>
             </ul>

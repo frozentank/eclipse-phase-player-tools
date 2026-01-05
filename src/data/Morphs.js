@@ -73,7 +73,7 @@ const MORPHS_DATA = [
     mobility: 'Feet 4/20',
     speed: '1',
     variants:[],
-    image: 'mentons',
+    image: 'menton.png',
   },
   {
     id: 5,
@@ -1158,6 +1158,7 @@ const MORPHS_DATA = [
     credit_cost: 'Expensive (minimum 40,000+)',
     mobility: 'Walker (4/20)',
     speed: '1',
+    variants:[],
     image: 'steel_morph.png',
   },
   {
@@ -1176,6 +1177,7 @@ const MORPHS_DATA = [
     credit_cost: 'Expensive (minimum 40,000+)',
     mobility: 'Thrust Vector 12/60',
     speed: '2 (Reflex Booster)',
+    variants:[],
     image: 'sundiver.png',
   },
   {
@@ -1194,6 +1196,7 @@ const MORPHS_DATA = [
     credit_cost: 'Expensive (minimum 30,000+)',
     mobility: 'Thrust Vector 8/40',
     speed: '1',
+    variants:[],
     image: 'surya.png',
   },
   {
@@ -1212,6 +1215,7 @@ const MORPHS_DATA = [
     credit_cost: 'Expensive',
     mobility: 'Winged 4/20',
     speed: '1',
+    variants:[],
     image: 'venusian_glider.png',
   },
   {
@@ -1335,7 +1339,7 @@ const MORPHS_DATA = [
     id: 65,
     name: 'Neo-Hominid (Gorillas)',
     type: 'Biomorph',
-    description: '',
+    description: 'Apply the following stats for neo-gorillas',
     details: 'To highlight the differences in neo-hominid species, apply the following stats for neo-gorillas. The neo-hominid entry in the Eclipse Phase core rulebook applies for neo-chimpanzees, neo-bonobos, and neo-orangutans.',
     implants: 'Basic Biomods, Basic Mesh Inserts, Cortical Stack, Prehensile Feet',
     aptitude_max: '30',
@@ -1495,7 +1499,7 @@ const MORPHS_DATA = [
     mobility: 'Walker 2/8, Hopper 4/20, Rotor 4/32',
     speed: '1',
     variants: [],
-    image: 'skulker.png',
+    image: 'swarmanoid.png',
   },
   {
     id: 72,
@@ -1900,7 +1904,7 @@ const MORPHS_DATA = [
     id: 93,
     name: 'Nautiloid',
     type: 'Synthetic Morph',
-    description: '',
+    description: 'autiloids are a hybrid of short-range spacecraft and submersible',
     details: 'Nautiloids are a hybrid of short-range spacecraft and submersible capable of holding up to six passengers and their gear. The morph is shaped like a van-sized nautilus, with crew space in the head and shell. A cluster of tentacular limbs mounted under the observation ports in the head provide both fine and brute force manipulation. Originally created for comet and asteroid mining, the design also proved useful for oceanic exploration by gatecrashing teams and Europans. The morph\'s interior includes a desktop cornucopia machine and a maker. It can deploy a pair of retractable pontoons for stability when floating on a liquid surface. A nautiloid\'s life support system can support its occupants for up to three months before replenishing—indefinitely if it has a source of hydrogen and oxygen. Nautiloids include radiation shielding, a small airlock, and a healing vat.',
     implants: 'Basic Mesh Inserts, Cortical Stack, Cyberbrain, Echolocation, Extra Limbs (8 Arms, 2 Tentacles), Hydrostatic Pressure Adaptation, Industrial Armor, Internal Rocket, Mnemonic Augmentation, Pneumatic Limbs (2 of the Arms), Puppet Sock, Radar, Radiation Sense, Swim Bladder, Telescoping Limbs (2 of the Arms), T-Ray Emitter',
     aptitude_max: '30',

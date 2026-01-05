@@ -73,8 +73,31 @@ export default function Navigation() {
                   <Link to="/psi/sleights" onClick={handleLinkClick}>Psi Sleights</Link>
                 </div>
               </div>
+            </div>
+          </li>
 
-              <Link to="/gear" onClick={handleLinkClick}>Gear</Link>
+          <li 
+            className={`dropdown ${openDropdown === 'gear' ? 'active' : ''}`}
+            onClick={() => toggleDropdown('gear')}
+          >
+            <span className="dropdown-toggle">Gear</span>
+            <div className="dropdown-menu dropdown-menu-right">
+              <Link to="/gear" onClick={handleLinkClick}>Overview</Link>
+              <Link to="/gear/all" onClick={handleLinkClick}>All Gear</Link>
+              <Link to="/gear/meshed" onClick={handleLinkClick}>Meshed Gear</Link>
+              <Link to="/gear/personal" onClick={handleLinkClick}>Personal Augmentation</Link>
+              <Link to="/gear/communication" onClick={handleLinkClick}>Communication</Link>
+              <Link to="/gear/covert" onClick={handleLinkClick}>Covert and Espionage Tech</Link>
+              <Link to="/gear/drugs" onClick={handleLinkClick}>Drugs, Chemicals, and Toxins</Link>
+              <Link to="/gear/everyday" onClick={handleLinkClick}>Everyday Technology</Link>
+              <Link to="/gear/nano" onClick={handleLinkClick}>Nanotechnology</Link>
+              <Link to="/gear/pets" onClick={handleLinkClick}>Pets</Link>
+              <Link to="/gear/scavenger" onClick={handleLinkClick}>Scavenger Tech</Link>
+              <Link to="/gear/services" onClick={handleLinkClick}>Services</Link>
+              <Link to="/gear/software" onClick={handleLinkClick}>Software</Link>
+              <Link to="/gear/survival" onClick={handleLinkClick}>Survival Gear</Link>
+              <Link to="/gear/weapons" onClick={handleLinkClick}>Weapons</Link>
+              <Link to="/gear/vehicles" onClick={handleLinkClick}>Robots and Vehicles</Link>
             </div>
           </li>
           

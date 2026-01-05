@@ -83,7 +83,7 @@ const PSI_SLEIGHTS_DATA = [
         duration: 'Constant',
     },
     {
-        id: 8,
+        id: 9,
         name: 'Hyperthymesia',
         description: 'Psi-Chi',
         details: 'Hyperthymesia grants the async a superior auto-biographical memory, allowing them to remember the most trivial of events. A hyperthymestic async can be asked a random date and recall the day of the week it was, the events that occurred that day, what the weather was like, and many seemingly trivial details that most people would not be able to recall.',
@@ -93,7 +93,7 @@ const PSI_SLEIGHTS_DATA = [
         duration: 'Constant',
     },
     {
-        id: 9,
+        id: 10,
         name: 'Instinct',
         description: 'Psi-Chi',
         details: 'Instinct bolsters the async\'s subconscious ability to gauge a situation and make a snap judgment that is just as accurate as a careful, considered decision. For Task Actions that involve analysis or planning alone (typically Mental skill actions), the async may reduce the timeframe by 90% without suffering a modifier. For Task Actions that involve partial analysis/planning, they may reduce the timeframe by 30% without penalty.',
@@ -103,7 +103,7 @@ const PSI_SLEIGHTS_DATA = [
         duration: 'Constant',
     },
     {
-        id: 10,
+        id: 11,
         name: 'Multitasking',
         description: 'Psi-Chi',
         details: 'The async can handle vast amounts of information without overload and can perform more than one mental task at once. The character receives an extra Complex Action each Action Phase that may only be used for mental or mesh actions.',
@@ -113,7 +113,7 @@ const PSI_SLEIGHTS_DATA = [
         duration: 'Constant',
     },
     {
-        id: 11,
+        id: 12,
         name: 'Pattern Recognition',
         description: 'Psi-Chi',
         details: 'The character is adept at spotting patterns and correlating the non-random elements of a jumble—related items jump out at them. This is useful for translating languages, breaking codes, or finding clues hidden among massive amounts of data. The character must have a sufficiently large sample and time enough to study, as determined by the gamemaster. This might range from a few hours of listening to a spoken transhuman language to a few days of investigating inscriptions left by long-dead aliens or a week or more of researching a lengthy cipher. Languages may be comprehended by reading or listening to them spoken. Apply a +20 modifier to any appropriate Language, Investigation, Research, or codebreaking Tests (note that this does not apply to Infosec Tests made by software to decrypt a code). The async may also use this ability to more easily learn new languages, reducing the training time by half.',
@@ -123,7 +123,7 @@ const PSI_SLEIGHTS_DATA = [
         duration: 'Constant',
     },
     {
-        id: 12,
+        id: 13,
         name: 'Predictive Boost',
         description: 'Psi-Chi',
         details: 'The Bayesian probability machine features of the async\'s brain are boosted by this sleight, enhancing their ability to estimate and predict outcomes of events around them as they unfold in real-time and update those predictions as information changes. In effect, the character has a more intuitive sense for which outcomes are most likely. This grants the character a +10 bonus on any skill tests that involve predicting the outcome of events. It also bolsters the async\'s decision-making in combat situations by making the best course of action more clear and so provides a +1 bonus to Initiative and +10 to Fray Tests.',
@@ -133,7 +133,7 @@ const PSI_SLEIGHTS_DATA = [
         duration: 'Constant',
     },
     {
-        id: 13,
+        id: 14,
         name: 'Qualia',
         description: 'Psi-Chi',
         details: 'The async can temporarily increase their intuitive grasp of things. In game terms, Intuition is raised by 5 for the chosen duration. This boost to Intuition also raises the rating of skills linked to that aptitude.',
@@ -144,7 +144,7 @@ const PSI_SLEIGHTS_DATA = [
         strain: '-1',
     },
     {
-        id: 14,
+        id: 15,
         name: 'Savant Calculation',
         description: 'Psi-Chi',
         details: 'The character possesses an incredible facility with intuitive mathematics. They can do everything from calculate the odds exactly when gambling to predicting precisely where a leaf falling from a tree will land by observing the landscape and local wind currents. The character specializes in calculation involving the activity of complex chaotic systems and so can calculate answers that even the fastest computers could not, including things like patterns of rubble distribution from an explosion. However, this mathematic facility is largely intuitive, so the character does not know the equations they are solving, they merely know the solution to the problem. This sleight also provides a +30 modifier to any skill tests involving math (which the character is calculating, not a computer).',
@@ -154,7 +154,7 @@ const PSI_SLEIGHTS_DATA = [
         duration: 'Constant',
     },
     {
-        id: 15,
+        id: 16,
         name: 'Sensory Boost',
         description: 'Psi-Chi',
         details: 'An async uses this sleight to increase their natural or augmented sensory perception (visual, audio, olfactory, etc.) by enhanced cerebral processing, granting a +20 modifier to sensory-based Perception Tests.',
@@ -165,7 +165,7 @@ const PSI_SLEIGHTS_DATA = [
         strain: '-2',
     },
     {
-        id: 16,
+        id: 17,
         name: 'Superior Kinesics',
         description: 'Psi-Chi',
         details: 'The async acquires more insight into people\'s emotive signals, gestures, facial expressions, and body language when it comes to predicting the person\'s emotional state, intent, or reactions. Apply a +10 modifier to Kinesics Skill Tests',
@@ -175,7 +175,7 @@ const PSI_SLEIGHTS_DATA = [
         duration: 'Contant',
     },
     {
-        id: 17,
+        id: 18,
         name: 'Time Sense',
         description: 'Psi-Chi',
         details: 'An async with this ability can slow down their perception of time, making everything appear to move in slow motion or at reduced speed. In game terms, this sleight grants the async a Speed of +1. This extra Action Phase, however, can only be spent on mental and mesh actions.',
@@ -186,7 +186,7 @@ const PSI_SLEIGHTS_DATA = [
         strain: '-1',
     },
     {
-        id: 18,
+        id: 19,
         name: 'Unconscious Lead',
         description: 'Psi-Chi',
         details: 'This sleight allows the async to override their consciousness and let their unconscious mind take point. While in this state, the async\'s conscious mind is only dimly aware of what is transgressing, and any memories of this period will be hazy at best. The advantage is that the unconscious mind acts more quickly, and so the async\'s Speed is boosted by +1. The character remains aware and active, but is incapable of complex communication or other mental actions and is motivated by instinct and primitive urges more than conscious thought. Though it is recommended that the player retain control of their character while using Unconscious Lead, the gamemaster should feel free to direct the character\'s actions as they see fit.',
@@ -197,7 +197,7 @@ const PSI_SLEIGHTS_DATA = [
         strain: '+0',
     },
     {
-        id: 19,
+        id: 20,
         name: 'Alienation',
         description: 'Psi-Gamma',
         details: 'Alienation is an offensive sleight that create a sense of disconnection between an ego and its morph—similar to that experienced when resleeved into a new body. The ego finds their body cumbersome, strange, and alien, almost like they are a prisoner within it. If the async beats the target in an Opposed Test, treat the result as a failed Integration Test for the target. This effect lasts for the sleight\'s duration.',
@@ -209,7 +209,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Psi Assault',
     },
     {
-        id: 20,
+        id: 21,
         name: 'Charisma',
         description: 'Psi-Gamma',
         details: 'The async uses this sleight to influence the target\'s mind on a subconscious level so that the target perceives them to be charming, magnetic, and persuasive. If the async beats the target in an Opposed Test, they gain a +30 modifier on all subsequent Social Skill Tests for the chosen duration.',
@@ -221,7 +221,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Control',
     },
     {
-        id: 21,
+        id: 22,
         name: 'Cloud Memory',
         description: 'Psi-Gamma',
         details: 'Cloud Memory allows the async to temporarily disrupt the target\'s ability to form long-term memories. If the async wins the Opposed Test, the target\'s memory-saving ability is negated for the duration. The target will retain short-term memories during this time, but will soon forget anything that occurred while this sleight was in effect.',
@@ -233,7 +233,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Control',
     },
     {
-        id: 22,
+        id: 23,
         name: 'Deep Scan',
         description: 'Psi-Gamma',
         details: 'Deep Scan is a more intrusive version of Thought Browse , made to extract information from the targeted individual. If the Opposed Test succeeds, the async telepathically invades the target\'s mind and can probe it for information. For every 10 full points of MoS the async achieves on their test, they retrieve one piece of information. Each item takes one full Action Turn to retrieve, during which the sleight must be sustained. The target is aware of this mental probing, though they will not know what information the async acquired.',
@@ -245,7 +245,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Sense',
     },
     {
-        id: 23,
+        id: 24,
         name: 'Drive Emotion',
         description: 'Psi-Gamma',
         details: 'This sleight allows the async to stimulate cortical areas of the target\'s brain related to emotion. This allows the async to induce, amplify, or tone down specific emotions, thereby manipulating the target. If the async beats the target in an Opposed Test, they will act in accordance with the emotion for the duration and under certain circumstances may suffer from certain penalties (up to +/-30), as determined by the gamemaster. For example, an async might receive a +30 Intimidation Test modifier against a target imbued withe fear.',
@@ -257,7 +257,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Control',
     },
     {
-        id: 24,
+        id: 25,
         name: 'Ego Sense',
         description: 'Psi-Gamma',
         details: 'Ego Sense can be used to detect the presence and location of other sentient and biological life forms (i.e., egos) within the async\'s range. To detect these life forms, the async makes a single Sense Test, opposed by each life form within range. The async may suffer a modifier for detecting small animals and insects, similar to the modifier applied for targeting them in ranged combat (Combat Modifiers table); likewise, a modifier for detecting larger life forms may also be applied. If successful, the async detects that the life form is nearby. Every 10 full points of MoS will ascertain another piece of information regarding the detected life: direction from async, approximate size, type of creature, distance from async, etc. The async will know if the target moves, if they do so during the sleight\'s duration.',
@@ -269,7 +269,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Sense',
     },
     {
-        id: 25,
+        id: 26,
         name: 'Empathic Scan',
         description: 'Psi-Gamma',
         details: 'Empathic Scan enables the async to sense the target\'s base emotions. If the async wins the Opposed Test, they intuitively feel the target\'s current emotional state for as long as the sleight is sustained. At the gamemaster\'s discretion, this knowledge may provide a modifier (up to +30) for certain Social skill tests.',
@@ -281,7 +281,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Sense',
     },
     {
-        id: 26,
+        id: 27,
         name: 'Implant Memory',
         description: 'Psi-Gamma',
         details: 'An async using this sleight can implant a memory of up to an hour\'s length inside the target\'s mind. This memory very obviously does not belong to the target—there is no way they will confuse it for one of their own. The intent is not to fake memories, but to place one of the async\'s memories in the target\'s mind so that the target can access it just like any other memory. This can be useful for “archiving” important data with an ally, providing a literal alternate perspective, or simply making a “data dump” for the target to peruse. Implant Memory requires an Opposed Test against unwilling participants. At the gamemaster\'s discretion, particularly traumatic memories might inflict mental stress on the recipient.',
@@ -293,7 +293,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Control',
     },
     {
-        id: 27,
+        id: 28,
         name: 'Implant Skill',
         description: 'Psi-Gamma',
         details: 'Similar to Implant Memory, this sleight allows the async to impart some of their expertise and implant it into the target\'s mind. For the duration of the sleight, the target benefits when using that skill. If the async\'s skill is between 31 and 60, the target receives a +10 bonus. If the async\'s skill is 61+, the target receives a +20 bonus. Implant Skill requires an Opposed Test against unwilling participants. In some cases, the target has been known to use the skill with the async\'s flair and mannerisms.',
@@ -305,7 +305,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Control',
     },
     {
-        id: 28,
+        id: 29,
         name: 'Mimic',
         description: 'Psi-Gamma',
         details: 'In a setting where changing your body and face is not unusual, people learn to recognize habits and personality quirks more often. The async must use this sleight on a target and succeed in a Success Test. If successful, the async acquires an “imprint” of the target\'s mind that they can take advantage of when impersonating that ego. The async then receives a +30 bonus on Impersonation Tests when mimicking the target\'s behavior and social cues.',
@@ -317,7 +317,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Sense',
     },
     {
-        id: 29,
+        id: 30,
         name: 'Mindlink',
         description: 'Psi-Gamma',
         details: 'Mindlink allows two-way mental communication with a target. This may be used on more than one target simultaneously, in which case the async can act as a telepathic “server” so that everyone mindlinked with the async may also telepathically communicate with each other (via the async, however, who overhears). Language is still a factor in mindlinked communications, but this barrier may be overcome by transmitting sounds, images, emotions, and other sensations. Mindlink requires an Opposed Test against unwilling participants.',
@@ -329,7 +329,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Control',
     },
     {
-        id: 30,
+        id: 31,
         name: 'Omni Awareness',
         description: 'Psi-Gamma',
         details: 'An async with Omni Awareness is hypersensitive to other biological life that is observing them. During this sleight\'s duration, the async makes a Sense Test that is opposed by any life that has focused their attention on them within the sleight\'s range; if successful, the async knows they are being watched, but not by whom or what. It does, however, apply a +30 Perception bonus to spot the observer. This sleight does not register partial or fleeting attention, it only notices targets who are actively observing (even if they are concealing their observation). This sleight is effective in spotting a tail, as well as finding potential mates in a bar.',
@@ -341,7 +341,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Sense',
     },
     {
-        id: 31,
+        id: 32,
         name: 'Penetration',
         description: 'Psi-Gamma',
         details: 'Penetration is a sleight that works in conjunction with any offensive sleight that involves the Psi Assault skill. It allows the async to penetrate the Psi Shield of an opponent by concentrating their psi attack. Every point of Armor Penetration applied to a psi attack inflicts 1 point of strain. The maximum AP that may be applied equals the async\'s Psi Assault skill divided by 10 (round down).',
@@ -353,7 +353,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Psi Assault',
     },
     {
-        id: 32,
+        id: 33,
         name: 'Psi Shield',
         description: 'Psi-Gamma',
         details: 'Psi Shield bolsters the async\'s mind to psi attack and manipulation. If the async is hit by a psi attack, they receive WIL ÷ 5 (round up) points of armor, reducing the amount of damage inflicted. They also receive a +10 modifier when resisting any other sleights.',
@@ -363,7 +363,7 @@ const PSI_SLEIGHTS_DATA = [
         duration: 'Constant',
     },
     {
-        id: 33,
+        id: 34,
         name: 'Psychic Stab',
         description: 'Psi-Gamma',
         details: 'Psychic Stab is an offensive sleight that seeks to inflict physical damage on the target\'s brain and nervous system. Each successful attack inflicts 1d10 + (WIL ÷ 10, round up) damage. Increase the damage by +5 if an Excellent Success (MoS of 30+) is scored.',
@@ -375,7 +375,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Psi Assault',
     },
     {
-        id: 34,
+        id: 35,
         name: 'Scramble',
         description: 'Psi-Gamma',
         details: 'Sense Block disables and short circuits one of the target\'s sensory cortices (chosen by the async), interfering with and possibly negating a specific source of sensory input for the chosen duration. If the async beats the target in the Opposed Test, the target suffers a -30 modifier to Perception Tests with that sense (doubled to -60 if the async scores an Excellent Success).',
@@ -387,7 +387,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Psi Assault',
     },
     {
-        id: 35,
+        id: 36,
         name: 'Spam',
         description: 'Psi-Gamma',
         details: 'This sleight allows the async to overload and flood one of the target\'s sensory cortices (chosen by the async), spamming them with confusing and distracting sensory input and thereby impairing them. If the async wins the Opposed Test, the target suffers a -10 modifier to all tests the duration of the sleight (doubled to -20 if the async scores an Excellent Success).',
@@ -399,7 +399,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Psi Assault',
     },
     {
-        id: 36,
+        id: 37,
         name: 'Static',
         description: 'Psi-Gamma',
         details: 'The async generates an anti-psi jamming field, impeding any use of ranged sleights within their range. All such ranged sleights suffer a -30 modifier. This sleight has no effect on self or touch-range sleights.',
@@ -411,7 +411,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'None',
     },
     {
-        id: 37,
+        id: 38,
         name: 'Subliminal',
         description: 'Psi-Gamma',
         details: 'The Subliminal sleight allows the async to influence another person by implementing a single post-hypnotic suggestion into the mind of the target. If the async wins the Opposed Test, the recipient will carry out this suggestion as if it was their own idea. Implanted suggestions must be short and simple; the gamemaster may require suggestions be encompassed in a short sentence (for example: “open the airlock,” or “hand over the weapon”). The target may receive a bonus for resisting suggestions that are immediately life threatening (“jump off the bridge”) or that violate their motivations or personal strictures. Suggestions may be implanted with a short trigger condition (“when the alarm goes off, ignore it”).',
@@ -423,7 +423,7 @@ const PSI_SLEIGHTS_DATA = [
         skill: 'Control',
     },
     {
-        id: 38,
+        id: 39,
         name: 'Thought Browse',
         description: 'Psi-Gamma',
         details: 'Thought Browse is a less-intrusive form of mind reading that scans the target\'s surface thoughts for certain “keywords” like a particular word, phrase, sound, or image chosen by the async. Rather than digging through the target\'s ego as with the Deep Scan sleight, Thought Browse merely verifies whether a target has a particular person, place, event, or thing in mind, which can be used by a savvy investigator to draw conclusions without the need to invade the mind directly. Thought Browse may be sustained, allowing the async to continue scanning the target\'s thoughts over time. The async must beat the target in an Opposed Test for each scanned item.',
