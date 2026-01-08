@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-export default function Actions() {
+export default function Action() {
   return (
     <div className="page-content">
       <h1>Actions & Combat</h1>

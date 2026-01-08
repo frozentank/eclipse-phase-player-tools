@@ -107,7 +107,10 @@ export default function Navigation() {
           >
             <span className="dropdown-toggle">Gameplay</span>
             <div className="dropdown-menu dropdown-menu-right">
-              <Link to="/actions" onClick={handleLinkClick}>Actions & Combat</Link>
+              <Link to="/action" onClick={handleLinkClick}>Actions & Combat</Link>
+              <Link to="action/rules_summary">Game Rules Summary</Link>
+              <Link to="action/combat_modifiers">Combat Modifiers Summary</Link>
+              <Link to="action/system_stress">System and Stress Summary</Link>
               <Link to="/mesh" onClick={handleLinkClick}>The Mesh</Link>
               <Link to="/psychosurgery" onClick={handleLinkClick}>Psychosurgery</Link>
             </div>

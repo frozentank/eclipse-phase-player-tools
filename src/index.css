@@ -90,19 +90,19 @@ button:focus-visible {
   }
 }
 
-table {
+/* table {
     width: 800px;
     height: 200px;
-}
+} */
 
-th {
+/* th {
     border-bottom: 1px solid black;
     text-align: center;
-}
+} */
 
-td {
+/* td {
     text-align: center;
-}
+} */
 
 .container {
   display: flex;

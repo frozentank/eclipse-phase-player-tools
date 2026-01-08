@@ -25,7 +25,7 @@ export default function Meshed() {
         <table>
           <thead>
             <tr>
-              <td>Szie Category</td><td>Urban Range</td><td>Open Range</td><td>Examples</td>
+              <td>Size Category</td><td>Urban Range</td><td>Open Range</td><td>Examples</td>
             </tr>
           </thead>
           <tbody>
