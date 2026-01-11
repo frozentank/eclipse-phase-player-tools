@@ -21,14 +21,19 @@ export default function Aptitudes() {
       applications: ['Initiative', 'Close Combat', 'Dodge'],
     },
     {
+      name: 'Savvy (SAV)',
+      description: 'Mental adaptability and social intuition',
+      applications: ['Impersonation', 'Kinesics', 'Animal Handling'],
+    },
+    {
       name: 'Somatics (SOM)',
       description: 'Physical toughness and pain tolerance',
       applications: ['Damage Resistance', 'Survival', 'Medical'],
     },
     {
       name: 'Willpower (WIL)',
-      description: 'Mental fortitude and force of personality',
-      applications: ['Psychosocial', 'Leadership', 'Resistance to Mental Attacks'],
+      description: 'Mental fortitude and Psi affinity',
+      applications: ['Resistance to Mental Attacks', 'Psi Abilities'],
     },
   ]
 
