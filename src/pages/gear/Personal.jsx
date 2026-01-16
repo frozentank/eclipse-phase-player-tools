@@ -11,6 +11,9 @@ export default function Personal() {
       <h3>{item.name}</h3>
       <p><strong>Type:</strong> Personal Augmentation</p>
       <p><strong>Cost:</strong> {item.cost}</p>
+      {item.restriction && (
+        <p><strong>Restrictions:</strong> {item.restriction}</p>
+      )}
       <p>{item.details}</p>
     </>
   )
