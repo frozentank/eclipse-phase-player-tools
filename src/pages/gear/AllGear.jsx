@@ -3,8 +3,8 @@ import SearchableList from '../../components/SearchableList'
 import GEAR_DATA from '../../data/Gear'
 
 
-export default function Personal() {
-  const [selectedPersonal, setSelectedPersonal] = useState(null)
+export default function AllGear() {
+  const [selectedAllGear, setSelectedAllGear] = useState(null)
 
   const renderDetails = (item) => (
     <>
@@ -19,21 +19,18 @@ export default function Personal() {
 
   return (
     <div className="page-content">
-      <h1>Personal Augmentation</h1>
+      <h1>All Gear</h1>
       
       <p>
-        Almost all citizens of the solar system, whether human, AI, or uplifted animal, use various forms of biological, cybernetic, or nanotechnological augmentation. The following is a list of the most common types.
-      </p>
-      <p>
-        Unless otherwise noted, any bonuses from personal augmentations are both compatible and cumulative with bonuses from other enhancements.
+        This is a list of all gear available.
       </p>
 
       <div className="searchable-container">
         <SearchableList
-          items={GEAR_DATA.filter(item => item.type === "personal")}
+          items={GEAR_DATA}
           searchFields={['name', 'description', 'type']}
-          onSelect={setSelectedPersonal}
-          selectedItem={selectedPersonal}
+          onSelect={setSelectedAllGear}
+          selectedItem={selectedAllGear}
           renderDetails={renderDetails}
         />
       </div>

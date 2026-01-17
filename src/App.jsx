@@ -24,6 +24,20 @@ import SystemsAndStressSummary from './pages/action/SystemAndStressSummary'
 
 import './App.css'
 import Personal from './pages/gear/Personal'
+import Communication from './pages/gear/Communication'
+import Covert from './pages/gear/Covert'
+import Chemical from './pages/gear/Chemical'
+import Everyday from './pages/gear/Everyday'
+import Nano from './pages/gear/Nanotechnology'
+import Pets from './pages/gear/Pets'
+import Scavenger from './pages/gear/Scavenger'
+import Services from './pages/gear/Services'
+import Software from './pages/gear/Software'
+import Survival from './pages/gear/Survival'
+import Weapons from './pages/gear/Weapons'
+import Vehicles from './pages/gear/Vehicles'
+import Armor from './pages/gear/Armor'
+import AllGear from './pages/gear/AllGear'
 
 function App() {
   return (
@@ -46,8 +60,22 @@ function App() {
           <Route path="psi/using" element={<PsiUsing />} />
           <Route path="psi/sleights" element={<PsiSleights />} />
           <Route path="psychosurgery" element={<Psychosurgery />} />
+          <Route path="gear/all" element={<AllGear />} />
           <Route path="gear/meshed" element={<Meshed />} />
           <Route path="gear/personal" element={<Personal />} />
+          <Route path="gear/communication" element={<Communication />} />
+          <Route path="gear/covert" element={<Covert />} />
+          <Route path="gear/chemical" element={<Chemical />} />
+          <Route path="gear/everyday" element={<Everyday />} />
+          <Route path="gear/nano" element={<Nano />} />
+          <Route path="gear/pets" element={<Pets />} />
+          <Route path="gear/scavenger" element={<Scavenger />} />
+          <Route path="gear/services" element={<Services />} />
+          <Route path="gear/software" element={<Software />} />
+          <Route path="gear/survival" element={<Survival />} />
+          <Route path="gear/weapons" element={<Weapons />} />
+          <Route path="gear/armor" element={<Armor />} />
+          <Route path="gear/vehicles" element={<Vehicles />} />
           <Route path="action/rules_summary" element={<GameRulesSummary />} />
           <Route path="action/combat_modifiers" element={<CombatModifiersSummary />} />
           <Route path="action/system_stress" element={<SystemsAndStressSummary />} />
