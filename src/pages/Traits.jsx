@@ -10,7 +10,22 @@ export default function Traits() {
     <>
       <h3>{item.name}</h3>
       <p><strong>Type:</strong> {item.type}</p>
-      <p><strong>Cost:</strong> {item.cost > 0 ? `+${item.cost}` : item.cost} points</p>
+      {item.cost && (
+        <p><strong>{item.type.toLowerCase().includes('positive') ? 'Cost' : 'Gain'}:</strong> {item.cost} points</p>
+      )}
+
+      {item.levels && item.levels.length > 1 && (
+        <div>
+          <strong>Levels</strong>
+          <ul>
+            {item.levels.map((i, index) => (
+              <li key={i.id}>
+                <strong>{i.name} {item.type.toLowerCase().includes('positive') ? 'Cost' : 'Gain'}:</strong> {i.cost} points
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
       <p>{item.details}</p>
     </>
   )
@@ -18,7 +33,7 @@ export default function Traits() {
   return (
     <div className="page-content">
       <h1>Traits</h1>
-      
+
       <p>
         Traits represent special advantages and disadvantages of your character. Positive traits cost trait points, while negative traits provide bonus trait points.
       </p>
